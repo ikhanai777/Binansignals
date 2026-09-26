@@ -147,3 +147,24 @@ volume + taker delta, and 3-bar delta momentum. Each ran with five take-profit/s
 
 Leverage does not create an edge. It multiplies the per-trade fee loss, so the account dies faster. The
 brief spikes toward $1,000 at 100x are the lure, not the outcome.
+
+## 6. User-specified 5m strategy: EMA9/21 + VWAP + volume z + RSI, 2% SL / 2% TP, 5h window (added 2026-09-26)
+
+Implemented as specified (`python -m research.user_strategy_5m`; the interpretation notes are in the file
+header). Tested on one year of real 5m data for all 12 pairs, with entry at the next bar's open,
+realistic fees and one position per pair.
+
+| Variant | Trades | Win rate | Avg per trade | PF | $500 @1% risk | $500 @5x full margin | $500 @10x |
+|---|---|---|---|---|---|---|---|
+| As specified (cross within last 6 bars) | 2,032 | 44.2% | −0.22% | 0.72 | $51 | $0 | $0 |
+| Strict (cross on the same bar) | 977 | 43.1% | −0.26% | 0.68 | $135 | $0 | $0 |
+| Cross within 12 bars | 2,860 | 44.2% | −0.19% | 0.74 | $29 | $0 | $0 |
+| + footprint absorption required | 171 | 55.0% | +0.17% | 1.29 | $573 | $567 | $281 |
+
+* 95% of signals are longs. Longs lose (−0.24%/trade); the few shorts are slightly positive (+0.08%, 106 trades).
+* 52% of trades hit the 5-hour timeout: a 2% target/stop is far beyond typical 5m moves, so the outcome is
+  mostly where price drifts in 5 hours.
+* Only 2 of 13 months had a positive average trade in the as-specified version.
+* The absorption-filtered version is slightly positive but not significant (t = 1.44, 171 trades, 6 of 12
+  months positive). Beyond 10x, leverage destroys it. At ≥ ~40x the isolated liquidation price sits inside
+  the 2% stop, so every stop-out is a liquidation.
