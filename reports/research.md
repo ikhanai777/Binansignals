@@ -210,3 +210,30 @@ $500 on the 1st of each month. There were 3 baskets × 3 start dates × 4 dip ru
 * Coin choice matters far more than timing. DCA from the Nov 2021 peak: SOL +131%, XRP +123%, BTC +97%,
   BNB +86%, LINK +31%, ETH +21%, LTC −6%, DOGE −8%, ADA −37%, AVAX −40%, DOT −66%.
 * Note: POL only has spot history since 2024-09 (the MATIC era is not included).
+
+## 9. Gold: $500/month on the 1st vs $20 on every dip, per year from 2020 (added 2026-09-26)
+
+`python -m research.gold_dip_dca`. Real COMEX gold daily closes (Yahoo GC=F; within a 0.6% median of Binance
+PAXG). 0.1% buy fee. Each year starts from zero with $500 added monthly. Unspent cash earns 0%. Full table:
+`reports/gold_dip_vs_monthly.csv`.
+
+| Year | Gold price | Monthly on the 1st | $20 every down day | $20 on ≥1% drops | $20 when ≥3% below 30d high |
+|---|---|---|---|---|---|
+| 2020 | +24.3% | **$6,522** (+8.7%) | $6,172 (35% invested) | $6,068 (13%) | $6,080 (34%) |
+| 2021 | −6.1% | **$6,065** (+1.1%) | $6,050 | $6,015 | **$6,075** |
+| 2022 | +1.4% | **$6,081** | $6,044 | $6,012 | $6,064 |
+| 2023 | +12.2% | **$6,371** | $6,155 | $6,030 | $6,134 |
+| 2024 | +27.4% | **$6,700** | $6,253 | $6,063 | $6,175 |
+| 2025 | +62.6% | **$7,812** (+30%) | $6,571 | $6,194 | $6,404 |
+| 2026 (to Sep) | −0.2% | $4,308 (−4.3%) | $4,426 | **$4,458** | $4,386 |
+| **2020 → Sep 2026** | +183.5% | **$79,929** (+97%) | $55,497 (+37%) | $44,721 (+10%) | $54,634 (+35%) |
+
+(Each year's contribution is $6,000; 2026 is $4,500. The total contributed is $40,500.)
+
+* Monthly buying won 5 of 7 years and won the cumulative result by about $25k. $20 per dip only ever deployed
+  12–40% of the budget. The rest sat in cash while gold rose 183%.
+* Dip days did not buy cheaper gold. The average cost per ounce was $2,190 for monthly buying, vs $2,179,
+  $2,308 and $2,233 for the three dip rules.
+* The hybrid (buy $20 on dips, then invest the leftover at month end) ended at $79.5k, the same as plain
+  monthly buying.
+* Dip-buying only "won" in the two flat or down years (2021, 2026), because it held more cash.
