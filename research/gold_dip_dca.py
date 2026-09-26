@@ -10,7 +10,9 @@ Plans (each year starts from zero; $500 is added on the first trading day of eve
 Dip definitions: any down day (close below the previous close), a down day of at least 1%, and a close at
 least 3% below the 30-day high.
 
-Run: python -m research.gold_dip_dca [gold|silver]
+Crypto (btc, eth) uses Binance spot daily closes directly, so no cross-check is needed.
+
+Run: python -m research.gold_dip_dca [gold|silver|btc|eth]
 """
 from __future__ import annotations
 
@@ -26,6 +28,14 @@ DIPS = {"any down day": "down", "down >= 1%": "down1", ">= 3% below 30d high": "
 
 
 METALS = {"gold": "GC=F", "silver": "SI=F"}
+CRYPTO = {"btc": "BTCUSDT", "eth": "ETHUSDT"}   # Binance spot daily closes (UTC days)
+
+
+def binance_spot_daily(symbol: str) -> pd.Series:
+    from .dip_dca import daily
+    s = daily(symbol, "2020-01-01")
+    s.index = s.index.tz_localize(None)
+    return s
 
 
 def gold_daily(ticker: str = "GC=F") -> pd.Series:
@@ -133,11 +143,15 @@ def table(px: pd.Series) -> pd.DataFrame:
 
 if __name__ == "__main__":
     metal = sys.argv[1] if len(sys.argv) > 1 else "gold"
-    px = gold_daily(METALS[metal])
-    ref, ref_name = (paxg_daily(), "Binance PAXG") if metal == "gold" else (binance_xag_daily(), "Binance XAGUSDT")
-    both = pd.concat([px, ref.reindex(px.index)], axis=1).dropna()
-    print(f"{metal} data {px.index[0].date()} -> {px.index[-1].date()} ({len(px)} days); median |COMEX - {ref_name}| "
-          f"gap {((both.iloc[:, 0] / both.iloc[:, 1] - 1).abs().median()):.2%} over {len(both)} overlapping days")
+    if metal in CRYPTO:
+        px = binance_spot_daily(CRYPTO[metal])
+        print(f"{metal} Binance spot data {px.index[0].date()} -> {px.index[-1].date()} ({len(px)} days)")
+    else:
+        px = gold_daily(METALS[metal])
+        ref, ref_name = (paxg_daily(), "Binance PAXG") if metal == "gold" else (binance_xag_daily(), "Binance XAGUSDT")
+        both = pd.concat([px, ref.reindex(px.index)], axis=1).dropna()
+        print(f"{metal} data {px.index[0].date()} -> {px.index[-1].date()} ({len(px)} days); median |COMEX - {ref_name}| "
+              f"gap {((both.iloc[:, 0] / both.iloc[:, 1] - 1).abs().median()):.2%} over {len(both)} overlapping days")
     pd.set_option("display.width", 250)
     pd.set_option("display.max_columns", 30)
     t = table(px)

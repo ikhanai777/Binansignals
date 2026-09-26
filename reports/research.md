@@ -260,3 +260,42 @@ of Binance XAGUSDT where both exist). Same rules as section 9. Full table: `repo
   at about $97.3k, the same as monthly buying.
 * Dip-buying won only the down years (2021, 2023, 2026), by holding more cash. Silver was about twice as
   volatile as gold, with bigger up years (+137% in 2025) and bigger down years (−14.5% in 2021).
+
+## 11. BTC and ETH: $500/month on the 1st vs $20 on every dip, per year from 2020 (added 2026-09-26)
+
+`python -m research.gold_dip_dca btc|eth`. Binance spot daily closes, same rules as sections 9–10. Tables:
+`reports/btc_dip_vs_monthly.csv`, `reports/eth_dip_vs_monthly.csv`.
+
+**BTC**
+
+| Year | BTC price | Monthly on the 1st | $20 every down day | $20 on ≥1% drops | $20 when ≥3% below 30d high |
+|---|---|---|---|---|---|
+| 2020 | +301.7% | **$17,648** | $12,177 | $9,823 | $15,187 |
+| 2021 | +57.6% | **$6,366** | $6,096 | $6,141 | $6,232 |
+| 2022 | −65.3% | $3,755 (−37%) | $4,738 | **$5,144** | $4,072 |
+| 2023 | +154.5% | **$9,454** | $7,931 | $6,827 | $8,341 |
+| 2024 | +111.8% | **$9,250** | $7,710 | $6,957 | $8,459 |
+| 2025 | −7.3% | $5,264 | $5,575 | **$5,787** | $5,507 |
+| 2026 (to Sep) | −5.3% | **$5,310** | $4,998 | $4,792 | $5,234 |
+| **2020 → Sep 2026** | +1,068% | **$119,470** (+195%) | $85,820 | $67,097 | $105,111 |
+
+**ETH**
+
+| Year | ETH price | Monthly on the 1st | $20 every down day | $20 on ≥1% drops | $20 when ≥3% below 30d high |
+|---|---|---|---|---|---|
+| 2020 | +463.1% | **$18,348** | $12,740 | $10,737 | $14,930 |
+| 2021 | +404.3% | **$10,729** | $7,728 | $7,485 | $8,678 |
+| 2022 | −68.2% | $3,896 (−35%) | $4,908 | **$5,118** | $4,245 |
+| 2023 | +90.1% | **$7,910** | $7,049 | $6,516 | $7,503 |
+| 2024 | +41.9% | **$6,878** | $6,471 | $6,280 | $6,868 |
+| 2025 | −11.6% | **$6,400** | $6,297 | $6,191 | $6,276 |
+| 2026 (to Sep) | −10.4% | **$5,737** | $5,232 | $4,983 | $5,530 |
+| **2020 → Sep 2026** | +1,958% | **$110,095** (+172%) | $78,673 | $67,237 | $92,321 |
+
+* Monthly buying won 5 of 7 years for BTC and 6 of 7 for ETH, and won the cumulative result by $14k–52k.
+  Dip-buying won only the crash years (2022, and BTC 2025).
+* Dip days did not buy cheaper coins. BTC average cost was $28,510 monthly vs $28,478–29,272 for the dip rules;
+  ETH was $990 monthly vs $1,019–1,094. Hybrids (dips + leftover at month end) ended at $116–118k (BTC) and
+  $104–105k (ETH), slightly below monthly buying.
+* Risk: even plain monthly buying fell 70% (BTC) and 78% (ETH) from its peak in 2022, vs 50% for silver and
+  23% for gold.
