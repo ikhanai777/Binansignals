@@ -1,0 +1,3991 @@
+{
+  "generated": "2026-09-26T01:32:03.960059+00:00",
+  "timeframe": "4h",
+  "equity": 1000.0,
+  "risk": 0.01,
+  "fear_greed": {
+    "value": 74,
+    "label": "Greed",
+    "week_ago": 71
+  },
+  "market_news": {
+    "count": 26,
+    "sentiment": 0.23076923076923078,
+    "high_impact": [
+      "Bitcoin ETF flows turn positive for 2026 after erasing $5.8 billion deficit",
+      "Bitcoin ETF inflows slow to $191M as six-day streak reaches $2.8B",
+      "Federal Reserve Unveils Stablecoin Rules on Reserves and Capital"
+    ]
+  },
+  "headline_count": 104,
+  "pairs": [
+    {
+      "pair": "BTCUSDT",
+      "symbol": "BTCUSDT",
+      "name": "Bitcoin",
+      "price": 83912.54730435,
+      "status": "NO TRADE",
+      "reason": "No rule set showed a positive edge over the last 180 days (stay flat).",
+      "last_bar": "2026-09-26T00:00:00+00:00",
+      "bias": 1,
+      "btc_bias": 1,
+      "atr": 990.3136375195737,
+      "atr_pct": 0.011801734893444668,
+      "rsi": 50.61537354902813,
+      "adx_d1": 44.2269516032339,
+      "ema21": 84182.74161958341,
+      "ema50": 82908.06587114013,
+      "validated": true,
+      "oos": {
+        "trades": 64,
+        "win_rate": 0.46875,
+        "avg_r": 0.09037341158476363,
+        "total_r": 5.783898341424872,
+        "profit_factor": 1.1681562117182254,
+        "max_dd_r": 9.749987636831644,
+        "return_pct": 0.051521908765181035,
+        "max_dd_pct": 0.09453629903578872,
+        "t_stat": 0.4602392919360553
+      },
+      "oos_windows": 15,
+      "rule_set": null,
+      "rule_score": 0.0,
+      "levels": {
+        "support": [
+          {
+            "price": 83618.05,
+            "low": 83450.1,
+            "high": 83786.0,
+            "touches": 2,
+            "strength": 0.9771986245665468,
+            "last_touch": "2026-09-23T16:00:00+00:00"
+          },
+          {
+            "price": 82707.06666666667,
+            "low": 82460.5,
+            "high": 82832.0,
+            "touches": 3,
+            "strength": 1.2057849330691033,
+            "last_touch": "2026-09-24T08:00:00+00:00"
+          },
+          {
+            "price": 81754.9375,
+            "low": 81270.5,
+            "high": 82282.8,
+            "touches": 8,
+            "strength": 4.95604031280593,
+            "last_touch": "2026-09-19T12:00:00+00:00"
+          },
+          {
+            "price": 80349.75,
+            "low": 80095.9,
+            "high": 80600.0,
+            "touches": 4,
+            "strength": 2.401914389914122,
+            "last_touch": "2026-09-20T00:00:00+00:00"
+          }
+        ],
+        "resistance": [
+          {
+            "price": 84937.44,
+            "low": 84408.6,
+            "high": 85224.0,
+            "touches": 5,
+            "strength": 2.942541294511141,
+            "last_touch": "2026-09-25T08:00:00+00:00"
+          },
+          {
+            "price": 86585.55,
+            "low": 86021.7,
+            "high": 87205.5,
+            "touches": 4,
+            "strength": 0.07507293948621353,
+            "last_touch": "2026-01-25T00:00:00+00:00"
+          },
+          {
+            "price": 87426.375,
+            "low": 87247.3,
+            "high": 87688.0,
+            "touches": 4,
+            "strength": 2.839250030034262,
+            "last_touch": "2026-09-23T04:00:00+00:00"
+          },
+          {
+            "price": 89800.36666666665,
+            "low": 89200.0,
+            "high": 90373.4,
+            "touches": 6,
+            "strength": 0.09180044989848869,
+            "last_touch": "2026-01-12T00:00:00+00:00"
+          }
+        ]
+      },
+      "profile": {
+        "poc": 84239.376875,
+        "vah": 84708.5025,
+        "val": 83439.10375,
+        "hvn": [
+          83963.420625,
+          84239.376875
+        ],
+        "window_start": "2026-09-23T01:31:00+00:00",
+        "window_end": "2026-09-26T01:30:00+00:00",
+        "delta_at_poc": -293.658002380962,
+        "total_delta": -13613.664000000013,
+        "total_volume": 497453.908
+      },
+      "book": {
+        "bid_usd": 10636246.005799996,
+        "ask_usd": 12002292.858899992,
+        "imbalance": -0.0603416528453635,
+        "bid_wall": 83886.6,
+        "bid_wall_usd": 492414.34200000006,
+        "ask_wall": 83960.0,
+        "ask_wall_usd": 706691.32
+      },
+      "positioning": {
+        "funding": 3e-08,
+        "mark": 83912.54730435,
+        "next_funding": "2026-09-26T08:00:00+00:00",
+        "oi_usd": 7972474587.802,
+        "oi_chg_24h": -0.011919705378694134,
+        "px_chg_24h": -0.008178749914262706,
+        "retail_ls": 1.3026,
+        "retail_long_pct": 0.5657,
+        "top_ls": 1.9628
+      },
+      "news": {
+        "count": 20,
+        "sentiment": 0.35,
+        "headlines": [
+          {
+            "title": "Here\u2019s what happened in crypto today",
+            "source": "Cointelegraph",
+            "time": "2026-09-25T18:42:59+00:00",
+            "link": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+            "score": 0.0
+          },
+          {
+            "title": "Strategy seeks shareholder approval for daily preferred stock dividends",
+            "source": "Cointelegraph",
+            "time": "2026-09-25T16:34:16+00:00",
+            "link": "https://cointelegraph.com/news/strategy-seeks-shareholder-approval-daily-preferred-stock-dividends?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+            "score": 1.0
+          },
+          {
+            "title": "Bitcoin Rally Slows as $15.6 Billion Options Expiry Hits\u2014XRP and Solana Keep Climbing",
+            "source": "Decrypt",
+            "time": "2026-09-25T16:06:23+00:00",
+            "link": "https://decrypt.co/379319/bitcoin-slows-billion-options-expiry-xrp-solana",
+            "score": 1.0
+          },
+          {
+            "title": "Defense Secretary Pete Hegseth Holds Bitcoin in a Coinbase Wallet, Filing Shows",
+            "source": "Decrypt",
+            "time": "2026-09-25T12:01:15+00:00",
+            "link": "https://decrypt.co/379290/defense-secretary-pete-hegseth-holds-bitcoin-in-a-coinbase-wallet-filing-shows",
+            "score": 0.0
+          },
+          {
+            "title": "Bond volatility surges while bitcoin and Wall Street stay calm",
+            "source": "CoinDesk",
+            "time": "2026-09-25T11:54:28+00:00",
+            "link": "https://www.coindesk.com/markets/2026/09/25/bond-volatility-surges-while-bitcoin-and-wall-street-stay-calm",
+            "score": 1.0
+          }
+        ],
+        "high_impact": [
+          "Bitcoin ETF flows turn positive for 2026 after erasing $5.8 billion deficit",
+          "Bitcoin ETF inflows slow to $191M as six-day streak reaches $2.8B"
+        ]
+      },
+      "footprint": {
+        "start": "2026-09-26T01:00:00+00:00",
+        "end": "2026-09-26T01:30:15.263000+00:00",
+        "minutes": 30.254383333333333,
+        "n_trades": 8000,
+        "tick": 20.0,
+        "bar": "5min",
+        "window_delta": -28.06000000000001,
+        "window_volume": 704.6179999999999,
+        "delta_pct": -0.039822996290188456,
+        "stacked_buy_zones": [],
+        "stacked_sell_zones": [],
+        "absorption_buy_bars": 0,
+        "absorption_sell_bars": 0,
+        "recent_bars": [
+          {
+            "time": "2026-09-26T01:05:00+00:00",
+            "open": 83869.6,
+            "high": 83936.8,
+            "low": 83869.6,
+            "close": 83873.0,
+            "volume": 158.536,
+            "delta": -22.49000000000001,
+            "poc": 83920.0
+          },
+          {
+            "time": "2026-09-26T01:10:00+00:00",
+            "open": 83873.0,
+            "high": 83923.9,
+            "low": 83873.0,
+            "close": 83900.1,
+            "volume": 90.883,
+            "delta": -5.7109999999999985,
+            "poc": 83920.0
+          },
+          {
+            "time": "2026-09-26T01:15:00+00:00",
+            "open": 83900.1,
+            "high": 83954.6,
+            "low": 83900.0,
+            "close": 83902.1,
+            "volume": 83.347,
+            "delta": -12.960999999999999,
+            "poc": 83920.0
+          },
+          {
+            "time": "2026-09-26T01:20:00+00:00",
+            "open": 83902.1,
+            "high": 83942.2,
+            "low": 83889.2,
+            "close": 83918.9,
+            "volume": 200.161,
+            "delta": 50.138999999999996,
+            "poc": 83920.0
+          },
+          {
+            "time": "2026-09-26T01:25:00+00:00",
+            "open": 83918.9,
+            "high": 83928.2,
+            "low": 83905.8,
+            "close": 83912.3,
+            "volume": 65.213,
+            "delta": 1.8969999999999985,
+            "poc": 83920.0
+          },
+          {
+            "time": "2026-09-26T01:30:00+00:00",
+            "open": 83912.4,
+            "high": 83912.4,
+            "low": 83912.3,
+            "close": 83912.3,
+            "volume": 2.731,
+            "delta": -2.6790000000000003,
+            "poc": 83920.0
+          }
+        ]
+      },
+      "cvd_slope_4h": -0.03037669307326924,
+      "plan": null
+    },
+    {
+      "pair": "ETHUSDT",
+      "symbol": "ETHUSDT",
+      "name": "Ethereum",
+      "price": 2687.48,
+      "status": "PENDING",
+      "reason": "Daily trend up; wait for a pullback into the 4h EMA21 zone (~2,688.97) and a 4h close back above EMA21 and the prior bar's high with positive taker delta.",
+      "last_bar": "2026-09-26T00:00:00+00:00",
+      "bias": 1,
+      "btc_bias": 1,
+      "atr": 41.16611635015864,
+      "atr_pct": 0.015317738680905026,
+      "rsi": 51.401996578434634,
+      "adx_d1": 46.1120220451585,
+      "ema21": 2688.971576336221,
+      "ema50": 2651.811628900279,
+      "validated": true,
+      "oos": {
+        "trades": 70,
+        "win_rate": 0.37142857142857144,
+        "avg_r": 0.11870277975690198,
+        "total_r": 8.309194582983139,
+        "profit_factor": 1.2351513545709458,
+        "max_dd_r": 6.847942012330957,
+        "return_pct": 0.07745821639590544,
+        "max_dd_pct": 0.06654211473766444,
+        "t_stat": 0.6279479628626911
+      },
+      "oos_windows": 15,
+      "rule_set": "pullback|adx_min=15,of_min=0.0,tp1_r=1.0,trail_atr=2.5",
+      "rule_score": 0.9329915431043992,
+      "levels": {
+        "support": [
+          {
+            "price": 2667.0,
+            "low": 2666.0,
+            "high": 2669.0,
+            "touches": 3,
+            "strength": 2.5070185532059583,
+            "last_touch": "2026-09-19T16:00:00+00:00"
+          },
+          {
+            "price": 2626.105,
+            "low": 2614.99,
+            "high": 2646.94,
+            "touches": 6,
+            "strength": 4.525928077591631,
+            "last_touch": "2026-09-24T08:00:00+00:00"
+          },
+          {
+            "price": 2542.755,
+            "low": 2522.75,
+            "high": 2566.4,
+            "touches": 16,
+            "strength": 11.229830149901568,
+            "last_touch": "2026-09-20T00:00:00+00:00"
+          },
+          {
+            "price": 2470.588333333333,
+            "low": 2459.0,
+            "high": 2490.24,
+            "touches": 6,
+            "strength": 3.683174128661485,
+            "last_touch": "2026-09-13T12:00:00+00:00"
+          }
+        ],
+        "resistance": [
+          {
+            "price": 2720.2799999999997,
+            "low": 2705.98,
+            "high": 2742.66,
+            "touches": 4,
+            "strength": 2.9344911950916703,
+            "last_touch": "2026-09-25T08:00:00+00:00"
+          },
+          {
+            "price": 2791.692,
+            "low": 2772.97,
+            "high": 2806.76,
+            "touches": 5,
+            "strength": 2.864660564038211,
+            "last_touch": "2026-09-23T04:00:00+00:00"
+          },
+          {
+            "price": 2890.8425,
+            "low": 2864.29,
+            "high": 2908.58,
+            "touches": 4,
+            "strength": 0.06268388362875714,
+            "last_touch": "2026-01-21T00:00:00+00:00"
+          },
+          {
+            "price": 3057.9616666666666,
+            "low": 3045.0,
+            "high": 3077.99,
+            "touches": 6,
+            "strength": 0.09750598879320795,
+            "last_touch": "2026-01-28T00:00:00+00:00"
+          }
+        ]
+      },
+      "profile": {
+        "poc": 2691.7453125,
+        "vah": 2704.8923750000004,
+        "val": 2644.2136250000003,
+        "hvn": [
+          2661.4059375000006,
+          2665.4511875,
+          2675.5643125000006,
+          2681.6321875000003,
+          2691.7453125
+        ],
+        "window_start": "2026-09-23T01:31:00+00:00",
+        "window_end": "2026-09-26T01:30:00+00:00",
+        "delta_at_poc": -11235.411557143147,
+        "total_delta": -232499.1810000014,
+        "total_volume": 11088199.643
+      },
+      "book": {
+        "bid_usd": 24473321.351749998,
+        "ask_usd": 21444886.872989997,
+        "imbalance": 0.06595280164107815,
+        "bid_wall": 2685.58,
+        "bid_wall_usd": 1287775.8937,
+        "ask_wall": 2690.09,
+        "ask_wall_usd": 1121471.6201
+      },
+      "positioning": {
+        "funding": 8.357e-05,
+        "mark": 2687.48,
+        "next_funding": "2026-09-26T08:00:00+00:00",
+        "oi_usd": 6080189234.62745,
+        "oi_chg_24h": -0.0018861683980351263,
+        "px_chg_24h": -0.0012976679159975024,
+        "retail_ls": 2.7037,
+        "retail_long_pct": 0.73,
+        "top_ls": 1.6766
+      },
+      "news": {
+        "count": 5,
+        "sentiment": -0.6,
+        "headlines": [
+          {
+            "title": "Circle and Tether Freeze Stablecoins Tied to Bitget Hack\u2014But Most Funds Slip Away",
+            "source": "Decrypt",
+            "time": "2026-09-25T18:42:51+00:00",
+            "link": "https://decrypt.co/379365/circle-tether-freeze-stablecoins-bitget-hack",
+            "score": -1.0
+          },
+          {
+            "title": "Magic Eden Warns Old Ethereum NFT Listings Are Exposed to Payment Processor Exploit",
+            "source": "Decrypt",
+            "time": "2026-09-25T16:17:19+00:00",
+            "link": "https://decrypt.co/379342/magic-eden-old-ethereum-nft-listings-exposed-exploit",
+            "score": -1.0
+          },
+          {
+            "title": "Circle and Tether step in to freeze hacker wallet after massive Bitget crypto heist",
+            "source": "CoinDesk",
+            "time": "2026-09-25T14:41:53+00:00",
+            "link": "https://www.coindesk.com/markets/2026/09/25/circle-and-tether-step-in-to-freeze-hacker-wallet-after-massive-bitget-crypto-heist",
+            "score": 0.0
+          },
+          {
+            "title": "ARK Invest brings $1.3 billion venture fund onchain through Securitize",
+            "source": "The Block",
+            "time": "2026-09-24T18:37:22+00:00",
+            "link": "https://www.theblock.co/news/markets/2026-09-24-ark-invest-tokenizes-arkvx-venture-fund-securitize-416294",
+            "score": 0.0
+          },
+          {
+            "title": "Crypto casino Duelbits goes offline after $7 million hot wallet hack",
+            "source": "CoinDesk",
+            "time": "2026-09-24T15:48:20+00:00",
+            "link": "https://www.coindesk.com/business/2026/09/24/crypto-casino-duelbits-goes-offline-after-usd7m-hot-wallet-hack",
+            "score": -1.0
+          }
+        ],
+        "high_impact": [
+          "Circle and Tether Freeze Stablecoins Tied to Bitget Hack\u2014But Most Funds Slip Away",
+          "Magic Eden Warns Old Ethereum NFT Listings Are Exposed to Payment Processor Exploit",
+          "Crypto casino Duelbits goes offline after $7 million hot wallet hack"
+        ]
+      },
+      "footprint": {
+        "start": "2026-09-26T01:00:00+00:00",
+        "end": "2026-09-26T01:30:26.064000+00:00",
+        "minutes": 30.4344,
+        "n_trades": 8000,
+        "tick": 1.0,
+        "bar": "5min",
+        "window_delta": -1470.3729999999996,
+        "window_volume": 13399.907000000003,
+        "delta_pct": -0.10973008991778818,
+        "stacked_buy_zones": [],
+        "stacked_sell_zones": [],
+        "absorption_buy_bars": 0,
+        "absorption_sell_bars": 0,
+        "recent_bars": [
+          {
+            "time": "2026-09-26T01:05:00+00:00",
+            "open": 2687.7,
+            "high": 2690.65,
+            "low": 2687.57,
+            "close": 2687.63,
+            "volume": 3200.2850000000003,
+            "delta": 116.02300000000014,
+            "poc": 2689.0
+          },
+          {
+            "time": "2026-09-26T01:10:00+00:00",
+            "open": 2687.63,
+            "high": 2689.9,
+            "low": 2686.94,
+            "close": 2688.57,
+            "volume": 3012.719,
+            "delta": -205.6529999999998,
+            "poc": 2688.0
+          },
+          {
+            "time": "2026-09-26T01:15:00+00:00",
+            "open": 2688.57,
+            "high": 2690.56,
+            "low": 2688.13,
+            "close": 2689.1,
+            "volume": 1771.647,
+            "delta": 214.41899999999998,
+            "poc": 2690.0
+          },
+          {
+            "time": "2026-09-26T01:20:00+00:00",
+            "open": 2689.1,
+            "high": 2690.74,
+            "low": 2688.35,
+            "close": 2688.35,
+            "volume": 2028.9150000000002,
+            "delta": -100.40100000000007,
+            "poc": 2690.0
+          },
+          {
+            "time": "2026-09-26T01:25:00+00:00",
+            "open": 2688.36,
+            "high": 2688.91,
+            "low": 2687.32,
+            "close": 2687.62,
+            "volume": 1200.9119999999998,
+            "delta": 292.5540000000001,
+            "poc": 2688.0
+          },
+          {
+            "time": "2026-09-26T01:30:00+00:00",
+            "open": 2687.63,
+            "high": 2687.75,
+            "low": 2687.48,
+            "close": 2687.49,
+            "volume": 40.535000000000004,
+            "delta": -5.175000000000001,
+            "poc": 2688.0
+          }
+        ]
+      },
+      "cvd_slope_4h": -0.003311083267947378,
+      "plan": {
+        "status": "PENDING",
+        "dir": 1,
+        "side": "LONG",
+        "why": "Daily trend up; wait for a pullback into the 4h EMA21 zone (~2,688.97) and a 4h close back above EMA21 and the prior bar's high with positive taker delta.",
+        "strategy": "pullback",
+        "entry": 2687.48,
+        "stop": 2644.255577832333,
+        "risk_pct": 0.016083625614950414,
+        "tp1": 2730.704422167667,
+        "tp2": 2773.928844335334,
+        "tp3": 2817.153266503001,
+        "partial": true,
+        "trail_atr": 2.5,
+        "management": "Close 50% at TP1 (1.0R), move stop to entry, then trail the rest 2.5x ATR(4h) behind the best price. TP2/TP3 are reference levels for manual scaling."
+      },
+      "score": 50,
+      "score_parts": [
+        {
+          "factor": "Daily trend aligned",
+          "points": 20,
+          "max": 20,
+          "note": "daily bias +1"
+        },
+        {
+          "factor": "BTC trend aligned",
+          "points": 10,
+          "max": 10,
+          "note": "BTC daily bias +1"
+        },
+        {
+          "factor": "Trend strength (daily ADX >= 20)",
+          "points": 10,
+          "max": 10,
+          "note": "ADX 46.1"
+        },
+        {
+          "factor": "Price vs 4h EMA50",
+          "points": 5,
+          "max": 5,
+          "note": "EMA50 2,651.81"
+        },
+        {
+          "factor": "4h CVD slope aligned",
+          "points": 0,
+          "max": 10,
+          "note": "-0.003"
+        },
+        {
+          "factor": "Live footprint delta aligned",
+          "points": 0,
+          "max": 10,
+          "note": "delta -1,470 over 30 min"
+        },
+        {
+          "factor": "Room to 2R (no strong S/R in the way)",
+          "points": 0,
+          "max": 10,
+          "note": "level 2,720.28 (\u00d74, recency-weighted strength 2.93)"
+        },
+        {
+          "factor": "Funding not crowded against trade",
+          "points": 5,
+          "max": 5,
+          "note": "+0.0084% / 8h"
+        },
+        {
+          "factor": "OI confirms (new money with the move)",
+          "points": 0,
+          "max": 5,
+          "note": "OI -0.2%, price -0.1% (24h)"
+        },
+        {
+          "factor": "Retail not one-sided with trade",
+          "points": 0,
+          "max": 5,
+          "note": "retail L/S 2.70"
+        },
+        {
+          "factor": "News not against trade",
+          "points": 0,
+          "max": 10,
+          "note": "5 headlines, sentiment -0.60"
+        }
+      ],
+      "sizing": {
+        "equity": 1000.0,
+        "risk": 0.01,
+        "risk_usd": 10.0,
+        "qty": 0.23135069246756235,
+        "notional": 621.7503589927245,
+        "leverage": 1,
+        "capped": false
+      },
+      "grade": "C (weak confluence)"
+    },
+    {
+      "pair": "XRPUSDT",
+      "symbol": "XRPUSDT",
+      "name": "XRP",
+      "price": 1.5698,
+      "status": "PENDING",
+      "reason": "Daily trend up; wait for a pullback into the 4h EMA21 zone (~1.5333) and a 4h close back above EMA21 and the prior bar's high with positive taker delta.",
+      "last_bar": "2026-09-26T00:00:00+00:00",
+      "bias": 1,
+      "btc_bias": 1,
+      "atr": 0.04339582190937978,
+      "atr_pct": 0.027644172448324487,
+      "rsi": 59.19888461066688,
+      "adx_d1": 39.70872724736689,
+      "ema21": 1.5333227723982084,
+      "ema50": 1.4863597844256164,
+      "validated": true,
+      "oos": {
+        "trades": 40,
+        "win_rate": 0.45,
+        "avg_r": 0.17346984861164882,
+        "total_r": 6.938793944465953,
+        "profit_factor": 1.3583226996965747,
+        "max_dd_r": 4.316073265406145,
+        "return_pct": 0.06740672400449266,
+        "max_dd_pct": 0.042986425160263714,
+        "t_stat": 0.7508575589069608
+      },
+      "oos_windows": 15,
+      "rule_set": "pullback|adx_min=15,of_min=0.0,tp1_r=0,trail_atr=2.5",
+      "rule_score": 0.8742762114980858,
+      "levels": {
+        "support": [
+          {
+            "price": 1.5551400000000002,
+            "low": 1.5488,
+            "high": 1.5745,
+            "touches": 5,
+            "strength": 2.8888393375234767,
+            "last_touch": "2026-09-21T20:00:00+00:00"
+          },
+          {
+            "price": 1.495275,
+            "low": 1.4838,
+            "high": 1.5092,
+            "touches": 8,
+            "strength": 3.3574248090757557,
+            "last_touch": "2026-09-14T20:00:00+00:00"
+          },
+          {
+            "price": 1.4495047619047619,
+            "low": 1.431,
+            "high": 1.4733,
+            "touches": 21,
+            "strength": 10.351196474342922,
+            "last_touch": "2026-09-24T08:00:00+00:00"
+          },
+          {
+            "price": 1.383647619047619,
+            "low": 1.3608,
+            "high": 1.4104,
+            "touches": 21,
+            "strength": 9.598808516938956,
+            "last_touch": "2026-09-20T00:00:00+00:00"
+          }
+        ],
+        "resistance": [
+          {
+            "price": 1.6619,
+            "low": 1.6582,
+            "high": 1.6693,
+            "touches": 3,
+            "strength": 1.9493633345709371,
+            "last_touch": "2026-09-23T04:00:00+00:00"
+          },
+          {
+            "price": 1.701,
+            "low": 1.701,
+            "high": 1.701,
+            "touches": 2,
+            "strength": 1.1710307551580559,
+            "last_touch": "2026-08-22T04:00:00+00:00"
+          },
+          {
+            "price": 1.82084,
+            "low": 1.8095,
+            "high": 1.8406,
+            "touches": 5,
+            "strength": 0.08392643186366323,
+            "last_touch": "2026-01-25T00:00:00+00:00"
+          },
+          {
+            "price": 1.968325,
+            "low": 1.9454,
+            "high": 1.9877,
+            "touches": 4,
+            "strength": 0.058186395604507835,
+            "last_touch": "2026-01-26T00:00:00+00:00"
+          }
+        ]
+      },
+      "profile": {
+        "poc": 1.5301806249999998,
+        "vah": 1.58837125,
+        "val": 1.48492125,
+        "hvn": [
+          1.4991456250000001,
+          1.5301806249999998,
+          1.5689743749999998,
+          1.5793193749999999
+        ],
+        "window_start": "2026-09-23T01:31:00+00:00",
+        "window_end": "2026-09-26T01:30:00+00:00",
+        "delta_at_poc": 879738.7399998754,
+        "total_delta": -100758151.40000033,
+        "total_volume": 3842766666.0
+      },
+      "book": {
+        "bid_usd": 11390818.100740002,
+        "ask_usd": 12707644.810440006,
+        "imbalance": -0.05464359758352419,
+        "bid_wall": 1.5618,
+        "bid_wall_usd": 1194232.24416,
+        "ask_wall": 1.578,
+        "ask_wall_usd": 838592.5950000001
+      },
+      "positioning": {
+        "funding": 0.0001,
+        "mark": 1.5698,
+        "next_funding": "2026-09-26T08:00:00+00:00",
+        "oi_usd": 486688233.70034,
+        "oi_chg_24h": -0.04441564516228369,
+        "px_chg_24h": 0.012631169840652934,
+        "retail_ls": 2.3659,
+        "retail_long_pct": 0.7029,
+        "top_ls": 2.5917
+      },
+      "news": {
+        "count": 1,
+        "sentiment": 1.0,
+        "headlines": [
+          {
+            "title": "Bitcoin Rally Slows as $15.6 Billion Options Expiry Hits\u2014XRP and Solana Keep Climbing",
+            "source": "Decrypt",
+            "time": "2026-09-25T16:06:23+00:00",
+            "link": "https://decrypt.co/379319/bitcoin-slows-billion-options-expiry-xrp-solana",
+            "score": 1.0
+          }
+        ],
+        "high_impact": []
+      },
+      "footprint": {
+        "start": "2026-09-26T01:00:00+00:00",
+        "end": "2026-09-26T01:30:36.019000+00:00",
+        "minutes": 30.600316666666668,
+        "n_trades": 8000,
+        "tick": 0.0005,
+        "bar": "5min",
+        "window_delta": -1646397.7,
+        "window_volume": 13842673.499999998,
+        "delta_pct": -0.11893639620987956,
+        "stacked_buy_zones": [],
+        "stacked_sell_zones": [],
+        "absorption_buy_bars": 0,
+        "absorption_sell_bars": 0,
+        "recent_bars": [
+          {
+            "time": "2026-09-26T01:05:00+00:00",
+            "open": 1.5653,
+            "high": 1.5698,
+            "low": 1.5646,
+            "close": 1.5665,
+            "volume": 2372368.5999999996,
+            "delta": 109157.3999999999,
+            "poc": 1.5675000000000001
+          },
+          {
+            "time": "2026-09-26T01:10:00+00:00",
+            "open": 1.5665,
+            "high": 1.569,
+            "low": 1.5653,
+            "close": 1.5676,
+            "volume": 2152871.1,
+            "delta": -532979.5,
+            "poc": 1.5675000000000001
+          },
+          {
+            "time": "2026-09-26T01:15:00+00:00",
+            "open": 1.5676,
+            "high": 1.5738,
+            "low": 1.567,
+            "close": 1.5723,
+            "volume": 2763416.8000000003,
+            "delta": 854932.2000000002,
+            "poc": 1.572
+          },
+          {
+            "time": "2026-09-26T01:20:00+00:00",
+            "open": 1.5724,
+            "high": 1.5756,
+            "low": 1.5701,
+            "close": 1.5707,
+            "volume": 3609434.1999999993,
+            "delta": -1012837.8,
+            "poc": 1.575
+          },
+          {
+            "time": "2026-09-26T01:25:00+00:00",
+            "open": 1.5707,
+            "high": 1.5723,
+            "low": 1.5683,
+            "close": 1.5698,
+            "volume": 1412050.1,
+            "delta": -252379.90000000002,
+            "poc": 1.57
+          },
+          {
+            "time": "2026-09-26T01:30:00+00:00",
+            "open": 1.5698,
+            "high": 1.57,
+            "low": 1.5691,
+            "close": 1.5698,
+            "volume": 120901.6,
+            "delta": 1861.199999999997,
+            "poc": 1.5695000000000001
+          }
+        ]
+      },
+      "cvd_slope_4h": 0.0031614186746658558,
+      "plan": {
+        "status": "PENDING",
+        "dir": 1,
+        "side": "LONG",
+        "why": "Daily trend up; wait for a pullback into the 4h EMA21 zone (~1.5333) and a 4h close back above EMA21 and the prior bar's high with positive taker delta.",
+        "strategy": "pullback",
+        "entry": 1.5333227723982084,
+        "stop": 1.4877571593933596,
+        "risk_pct": 0.02971690881077922,
+        "tp1": 1.578888385403057,
+        "tp2": 1.6244539984079058,
+        "tp3": 1.6700196114127546,
+        "partial": false,
+        "trail_atr": 2.5,
+        "management": "At +1R move stop to entry, then trail the rest 2.5x ATR(4h) behind the best price. TP2/TP3 are reference levels for manual scaling."
+      },
+      "score": 85,
+      "score_parts": [
+        {
+          "factor": "Daily trend aligned",
+          "points": 20,
+          "max": 20,
+          "note": "daily bias +1"
+        },
+        {
+          "factor": "BTC trend aligned",
+          "points": 10,
+          "max": 10,
+          "note": "BTC daily bias +1"
+        },
+        {
+          "factor": "Trend strength (daily ADX >= 20)",
+          "points": 10,
+          "max": 10,
+          "note": "ADX 39.7"
+        },
+        {
+          "factor": "Price vs 4h EMA50",
+          "points": 5,
+          "max": 5,
+          "note": "EMA50 1.4864"
+        },
+        {
+          "factor": "4h CVD slope aligned",
+          "points": 10,
+          "max": 10,
+          "note": "+0.003"
+        },
+        {
+          "factor": "Live footprint delta aligned",
+          "points": 0,
+          "max": 10,
+          "note": "delta -1,646,398 over 31 min"
+        },
+        {
+          "factor": "Room to 2R (no strong S/R in the way)",
+          "points": 10,
+          "max": 10,
+          "note": "clear"
+        },
+        {
+          "factor": "Funding not crowded against trade",
+          "points": 5,
+          "max": 5,
+          "note": "+0.0100% / 8h"
+        },
+        {
+          "factor": "OI confirms (new money with the move)",
+          "points": 0,
+          "max": 5,
+          "note": "OI -4.4%, price +1.3% (24h)"
+        },
+        {
+          "factor": "Retail not one-sided with trade",
+          "points": 5,
+          "max": 5,
+          "note": "retail L/S 2.37"
+        },
+        {
+          "factor": "News not against trade",
+          "points": 10,
+          "max": 10,
+          "note": "1 headlines, sentiment +1.00"
+        }
+      ],
+      "sizing": {
+        "equity": 1000.0,
+        "risk": 0.01,
+        "risk_usd": 10.0,
+        "qty": 219.4637433921031,
+        "notional": 336.5087554588685,
+        "leverage": 1,
+        "capped": false
+      },
+      "grade": "A (pending trigger)"
+    },
+    {
+      "pair": "LTCUSDT",
+      "symbol": "LTCUSDT",
+      "name": "Litecoin",
+      "price": 72.80585294,
+      "status": "PENDING",
+      "reason": "Daily trend up; wait for a pullback into the 4h EMA21 zone (~67.569) and a 4h close back above EMA21 and the prior bar's high with positive taker delta.",
+      "last_bar": "2026-09-26T00:00:00+00:00",
+      "bias": 1,
+      "btc_bias": 1,
+      "atr": 2.633319526338095,
+      "atr_pct": 0.03616906361234775,
+      "rsi": 66.04197505001747,
+      "adx_d1": 45.52653273261432,
+      "ema21": 67.5687090968004,
+      "ema50": 63.067501552603154,
+      "validated": false,
+      "oos": {
+        "trades": 43,
+        "win_rate": 0.3953488372093023,
+        "avg_r": -0.08804097365708437,
+        "total_r": -3.785761867254628,
+        "profit_factor": 0.8502946308087758,
+        "max_dd_r": 9.408571626913826,
+        "return_pct": -0.040435634020838496,
+        "max_dd_pct": 0.09143560309285947,
+        "t_stat": -0.4516896499270629
+      },
+      "oos_windows": 15,
+      "rule_set": "pullback|adx_min=22,of_min=0.0,tp1_r=1.0,trail_atr=3.5",
+      "rule_score": 1.6036729670353405,
+      "levels": {
+        "support": [
+          {
+            "price": 69.875,
+            "low": 69.3,
+            "high": 70.45,
+            "touches": 2,
+            "strength": 0.04415575062562412,
+            "last_touch": "2026-01-27T00:00:00+00:00"
+          },
+          {
+            "price": 64.735,
+            "low": 63.88,
+            "high": 65.27,
+            "touches": 4,
+            "strength": 1.9398861503002975,
+            "last_touch": "2026-09-23T04:00:00+00:00"
+          },
+          {
+            "price": 59.808749999999996,
+            "low": 59.22,
+            "high": 61.38,
+            "touches": 8,
+            "strength": 3.675224511289027,
+            "last_touch": "2026-09-22T08:00:00+00:00"
+          },
+          {
+            "price": 56.98866666666667,
+            "low": 55.95,
+            "high": 59.0,
+            "touches": 15,
+            "strength": 3.603611623748201,
+            "last_touch": "2026-09-23T12:00:00+00:00"
+          }
+        ],
+        "resistance": [
+          {
+            "price": 75.17,
+            "low": 74.61,
+            "high": 76.03,
+            "touches": 4,
+            "strength": 1.0224022511732163,
+            "last_touch": "2026-09-24T16:00:00+00:00"
+          },
+          {
+            "price": 80.29444444444444,
+            "low": 79.48,
+            "high": 82.41,
+            "touches": 9,
+            "strength": 0.12287966082419727,
+            "last_touch": "2026-01-14T00:00:00+00:00"
+          },
+          {
+            "price": 84.525,
+            "low": 84.2,
+            "high": 84.85,
+            "touches": 2,
+            "strength": 0.022459459346090713,
+            "last_touch": "2026-01-06T00:00:00+00:00"
+          },
+          {
+            "price": 87.35666666666667,
+            "low": 86.8,
+            "high": 87.75,
+            "touches": 3,
+            "strength": 0.031254229121086004,
+            "last_touch": "2025-12-09T00:00:00+00:00"
+          }
+        ]
+      },
+      "profile": {
+        "poc": 70.83324999999999,
+        "vah": 74.447,
+        "val": 66.6,
+        "hvn": [
+          68.14875,
+          70.00725,
+          70.83324999999999,
+          72.07225,
+          73.93075
+        ],
+        "window_start": "2026-09-23T01:31:00+00:00",
+        "window_end": "2026-09-26T01:30:00+00:00",
+        "delta_at_poc": 2763.962233332102,
+        "total_delta": -276984.56200000044,
+        "total_volume": 19299740.768000003
+      },
+      "book": {
+        "bid_usd": 2113788.4102999996,
+        "ask_usd": 1437351.4037000001,
+        "imbalance": 0.19048447597957616,
+        "bid_wall": 70.52,
+        "bid_wall_usd": 710721.2223599999,
+        "ask_wall": 77.8,
+        "ask_wall_usd": 368047.9154
+      },
+      "positioning": {
+        "funding": 0.0001,
+        "mark": 72.80585294,
+        "next_funding": "2026-09-26T08:00:00+00:00",
+        "oi_usd": 125033284.93305,
+        "oi_chg_24h": 0.006665455538376275,
+        "px_chg_24h": 0.016865776528460774,
+        "retail_ls": 2.3818,
+        "retail_long_pct": 0.7043,
+        "top_ls": 3.3799
+      },
+      "news": {
+        "count": 0,
+        "sentiment": 0.0,
+        "headlines": [],
+        "high_impact": []
+      },
+      "footprint": {
+        "start": "2026-09-26T00:00:00+00:00",
+        "end": "2026-09-26T01:30:45.521000+00:00",
+        "minutes": 90.75868333333332,
+        "n_trades": 8000,
+        "tick": 0.02,
+        "bar": "5min",
+        "window_delta": -7926.5579999999945,
+        "window_volume": 178986.138,
+        "delta_pct": -0.04428587648502698,
+        "stacked_buy_zones": [
+          [
+            72.3,
+            72.34
+          ]
+        ],
+        "stacked_sell_zones": [
+          [
+            71.96000000000001,
+            72.08
+          ],
+          [
+            71.88,
+            71.92
+          ],
+          [
+            72.44,
+            72.48
+          ],
+          [
+            72.8,
+            72.84
+          ]
+        ],
+        "absorption_buy_bars": 0,
+        "absorption_sell_bars": 0,
+        "recent_bars": [
+          {
+            "time": "2026-09-26T01:05:00+00:00",
+            "open": 72.73,
+            "high": 72.86,
+            "low": 72.4,
+            "close": 72.42,
+            "volume": 8062.093,
+            "delta": -2153.723,
+            "poc": 72.76
+          },
+          {
+            "time": "2026-09-26T01:10:00+00:00",
+            "open": 72.43,
+            "high": 72.63,
+            "low": 72.43,
+            "close": 72.48,
+            "volume": 6974.398,
+            "delta": 833.3860000000004,
+            "poc": 72.48
+          },
+          {
+            "time": "2026-09-26T01:15:00+00:00",
+            "open": 72.48,
+            "high": 73.1,
+            "low": 72.47,
+            "close": 72.93,
+            "volume": 11665.522,
+            "delta": 849.8059999999996,
+            "poc": 72.56
+          },
+          {
+            "time": "2026-09-26T01:20:00+00:00",
+            "open": 72.93,
+            "high": 73.26,
+            "low": 72.86,
+            "close": 72.97,
+            "volume": 13301.354,
+            "delta": -2705.8360000000002,
+            "poc": 73.2
+          },
+          {
+            "time": "2026-09-26T01:25:00+00:00",
+            "open": 72.98,
+            "high": 73.05,
+            "low": 72.69,
+            "close": 72.77,
+            "volume": 9153.291000000001,
+            "delta": -1936.682999999999,
+            "poc": 72.84
+          },
+          {
+            "time": "2026-09-26T01:30:00+00:00",
+            "open": 72.77,
+            "high": 72.84,
+            "low": 72.73,
+            "close": 72.78,
+            "volume": 904.7139999999999,
+            "delta": 376.7639999999999,
+            "poc": 72.76
+          }
+        ]
+      },
+      "cvd_slope_4h": -0.000636280896592665,
+      "plan": {
+        "status": "PENDING",
+        "dir": 1,
+        "side": "LONG",
+        "why": "Daily trend up; wait for a pullback into the 4h EMA21 zone (~67.569) and a 4h close back above EMA21 and the prior bar's high with positive taker delta.",
+        "strategy": "pullback",
+        "entry": 67.5687090968004,
+        "stop": 64.80372359414541,
+        "risk_pct": 0.040921094092441754,
+        "tp1": 70.3336945994554,
+        "tp2": 73.0986801021104,
+        "tp3": 75.86366560476539,
+        "partial": true,
+        "trail_atr": 3.5,
+        "management": "Close 50% at TP1 (1.0R), move stop to entry, then trail the rest 3.5x ATR(4h) behind the best price. TP2/TP3 are reference levels for manual scaling."
+      },
+      "score": 80,
+      "score_parts": [
+        {
+          "factor": "Daily trend aligned",
+          "points": 20,
+          "max": 20,
+          "note": "daily bias +1"
+        },
+        {
+          "factor": "BTC trend aligned",
+          "points": 10,
+          "max": 10,
+          "note": "BTC daily bias +1"
+        },
+        {
+          "factor": "Trend strength (daily ADX >= 20)",
+          "points": 10,
+          "max": 10,
+          "note": "ADX 45.5"
+        },
+        {
+          "factor": "Price vs 4h EMA50",
+          "points": 5,
+          "max": 5,
+          "note": "EMA50 63.068"
+        },
+        {
+          "factor": "4h CVD slope aligned",
+          "points": 0,
+          "max": 10,
+          "note": "-0.001"
+        },
+        {
+          "factor": "Live footprint delta aligned",
+          "points": 0,
+          "max": 10,
+          "note": "delta -7,927 over 91 min"
+        },
+        {
+          "factor": "Room to 2R (no strong S/R in the way)",
+          "points": 10,
+          "max": 10,
+          "note": "clear"
+        },
+        {
+          "factor": "Funding not crowded against trade",
+          "points": 5,
+          "max": 5,
+          "note": "+0.0100% / 8h"
+        },
+        {
+          "factor": "OI confirms (new money with the move)",
+          "points": 5,
+          "max": 5,
+          "note": "OI +0.7%, price +1.7% (24h)"
+        },
+        {
+          "factor": "Retail not one-sided with trade",
+          "points": 5,
+          "max": 5,
+          "note": "retail L/S 2.38"
+        },
+        {
+          "factor": "News not against trade",
+          "points": 10,
+          "max": 10,
+          "note": "0 headlines, sentiment +0.00"
+        }
+      ],
+      "sizing": {
+        "equity": 1000.0,
+        "risk": 0.01,
+        "risk_usd": 10.0,
+        "qty": 3.6166554907422843,
+        "notional": 244.37274275731133,
+        "leverage": 1,
+        "capped": false
+      },
+      "grade": "C (rule set not validated out-of-sample for this pair)"
+    },
+    {
+      "pair": "DOGEUSDT",
+      "symbol": "DOGEUSDT",
+      "name": "Dogecoin",
+      "price": 0.09882459,
+      "status": "ACTIVE",
+      "reason": "pullback rule fired on the 4h bar closed 2026-09-26 00:00 UTC",
+      "last_bar": "2026-09-26T00:00:00+00:00",
+      "bias": 1,
+      "btc_bias": 1,
+      "atr": 0.002802727584211619,
+      "atr_pct": 0.028360629517528164,
+      "rsi": 60.073484676177316,
+      "adx_d1": 33.068462352062966,
+      "ema21": 0.0960314000558769,
+      "ema50": 0.09313483225331497,
+      "validated": true,
+      "oos": {
+        "trades": 63,
+        "win_rate": 0.49206349206349204,
+        "avg_r": 0.08280879435902055,
+        "total_r": 5.216954044618295,
+        "profit_factor": 1.171857608194654,
+        "max_dd_r": 10.211486168208168,
+        "return_pct": 0.04841825824820334,
+        "max_dd_pct": 0.09764386696633362,
+        "t_stat": 0.522125849785973
+      },
+      "oos_windows": 15,
+      "rule_set": "pullback|adx_min=15,of_min=0.0,tp1_r=1.0,trail_atr=2.5",
+      "rule_score": 1.2523041732467022,
+      "levels": {
+        "support": [
+          {
+            "price": 0.09700285714285714,
+            "low": 0.09602,
+            "high": 0.09795,
+            "touches": 7,
+            "strength": 2.4544878815051465,
+            "last_touch": "2026-09-24T16:00:00+00:00"
+          },
+          {
+            "price": 0.09430000000000001,
+            "low": 0.09246,
+            "high": 0.09545,
+            "touches": 11,
+            "strength": 4.661878463500573,
+            "last_touch": "2026-09-25T04:00:00+00:00"
+          },
+          {
+            "price": 0.090308125,
+            "low": 0.08874,
+            "high": 0.09182,
+            "touches": 16,
+            "strength": 8.11755154201747,
+            "last_touch": "2026-09-24T08:00:00+00:00"
+          },
+          {
+            "price": 0.087154375,
+            "low": 0.08534,
+            "high": 0.08851,
+            "touches": 16,
+            "strength": 8.605888632893379,
+            "last_touch": "2026-09-19T04:00:00+00:00"
+          }
+        ],
+        "resistance": [
+          {
+            "price": 0.10154428571428573,
+            "low": 0.10043,
+            "high": 0.10236,
+            "touches": 7,
+            "strength": 1.5432274696711328,
+            "last_touch": "2026-08-22T04:00:00+00:00"
+          },
+          {
+            "price": 0.10542499999999999,
+            "low": 0.10427,
+            "high": 0.10674,
+            "touches": 8,
+            "strength": 3.232023714738066,
+            "last_touch": "2026-09-23T00:00:00+00:00"
+          },
+          {
+            "price": 0.11179,
+            "low": 0.11054,
+            "high": 0.11283,
+            "touches": 3,
+            "strength": 0.24415826907366217,
+            "last_touch": "2026-05-10T00:00:00+00:00"
+          },
+          {
+            "price": 0.11865714285714286,
+            "low": 0.11723,
+            "high": 0.12052,
+            "touches": 7,
+            "strength": 0.3408724770874772,
+            "last_touch": "2026-05-14T00:00:00+00:00"
+          }
+        ]
+      },
+      "profile": {
+        "poc": 0.09624625,
+        "vah": 0.100015,
+        "val": 0.09298,
+        "hvn": [
+          0.09256124999999998,
+          0.09490625,
+          0.09624625,
+          0.09775375
+        ],
+        "window_start": "2026-09-23T01:31:00+00:00",
+        "window_end": "2026-09-26T01:30:00+00:00",
+        "delta_at_poc": -16520312.441736579,
+        "total_delta": -1104383162.0000005,
+        "total_volume": 24043243718.0
+      },
+      "book": {
+        "bid_usd": 4639984.564110001,
+        "ask_usd": 5331611.224400002,
+        "imbalance": -0.06935967672164806,
+        "bid_wall": 0.09689,
+        "bid_wall_usd": 523081.9808,
+        "ask_wall": 0.099,
+        "ask_wall_usd": 1141188.4440000001
+      },
+      "positioning": {
+        "funding": 0.0001,
+        "mark": 0.09882459,
+        "next_funding": "2026-09-26T08:00:00+00:00",
+        "oi_usd": 290304368.86528,
+        "oi_chg_24h": 0.010368603986994351,
+        "px_chg_24h": 0.02093047352605959,
+        "retail_ls": 2.5224,
+        "retail_long_pct": 0.7161,
+        "top_ls": 4.3167
+      },
+      "news": {
+        "count": 0,
+        "sentiment": 0.0,
+        "headlines": [],
+        "high_impact": []
+      },
+      "footprint": {
+        "start": "2026-09-26T00:20:00+00:00",
+        "end": "2026-09-26T01:30:52.496000+00:00",
+        "minutes": 70.87493333333333,
+        "n_trades": 8000,
+        "tick": 2e-05,
+        "bar": "5min",
+        "window_delta": 21283910.0,
+        "window_volume": 231030516.0,
+        "delta_pct": 0.09212596832878996,
+        "stacked_buy_zones": [
+          [
+            0.09856000000000001,
+            0.09860000000000001
+          ],
+          [
+            0.09888000000000001,
+            0.09892000000000001
+          ],
+          [
+            0.09896,
+            0.09902000000000001
+          ],
+          [
+            0.09908,
+            0.09912000000000001
+          ]
+        ],
+        "stacked_sell_zones": [
+          [
+            0.09912000000000001,
+            0.09916000000000001
+          ],
+          [
+            0.09878,
+            0.09882
+          ],
+          [
+            0.09854,
+            0.09858000000000001
+          ],
+          [
+            0.09796,
+            0.098
+          ],
+          [
+            0.09868,
+            0.09872
+          ]
+        ],
+        "absorption_buy_bars": 0,
+        "absorption_sell_bars": 0,
+        "recent_bars": [
+          {
+            "time": "2026-09-26T01:05:00+00:00",
+            "open": 0.09861,
+            "high": 0.09902,
+            "low": 0.09857,
+            "close": 0.09863,
+            "volume": 21185618.0,
+            "delta": 5293982.0,
+            "poc": 0.09876000000000001
+          },
+          {
+            "time": "2026-09-26T01:10:00+00:00",
+            "open": 0.09863,
+            "high": 0.09882,
+            "low": 0.09855,
+            "close": 0.09865,
+            "volume": 16083148.0,
+            "delta": 2477042.0,
+            "poc": 0.09872
+          },
+          {
+            "time": "2026-09-26T01:15:00+00:00",
+            "open": 0.09865,
+            "high": 0.09905,
+            "low": 0.09858,
+            "close": 0.09893,
+            "volume": 8678861.0,
+            "delta": 1811033.0,
+            "poc": 0.099
+          },
+          {
+            "time": "2026-09-26T01:20:00+00:00",
+            "open": 0.09893,
+            "high": 0.09924,
+            "low": 0.09883,
+            "close": 0.09894,
+            "volume": 16027513.0,
+            "delta": 4712179.0,
+            "poc": 0.09894000000000001
+          },
+          {
+            "time": "2026-09-26T01:25:00+00:00",
+            "open": 0.09894,
+            "high": 0.09906,
+            "low": 0.09871,
+            "close": 0.09877,
+            "volume": 6826224.0,
+            "delta": -564038.0,
+            "poc": 0.09880000000000001
+          },
+          {
+            "time": "2026-09-26T01:30:00+00:00",
+            "open": 0.09878,
+            "high": 0.09885,
+            "low": 0.09876,
+            "close": 0.09879,
+            "volume": 671278.0,
+            "delta": 325928.0,
+            "poc": 0.09880000000000001
+          }
+        ]
+      },
+      "cvd_slope_4h": 0.0006175517747993074,
+      "plan": {
+        "status": "ACTIVE",
+        "dir": 1,
+        "side": "LONG",
+        "why": "pullback rule fired on the 4h bar closed 2026-09-26 00:00 UTC",
+        "strategy": "pullback",
+        "entry": 0.09882459,
+        "stop": 0.09380931810394709,
+        "risk_pct": 0.05074923049063916,
+        "tp1": 0.10383986189605292,
+        "tp2": 0.10885513379210583,
+        "tp3": 0.11387040568815875,
+        "partial": true,
+        "trail_atr": 2.5,
+        "management": "Close 50% at TP1 (1.0R), move stop to entry, then trail the rest 2.5x ATR(4h) behind the best price. TP2/TP3 are reference levels for manual scaling."
+      },
+      "score": 85,
+      "score_parts": [
+        {
+          "factor": "Daily trend aligned",
+          "points": 20,
+          "max": 20,
+          "note": "daily bias +1"
+        },
+        {
+          "factor": "BTC trend aligned",
+          "points": 10,
+          "max": 10,
+          "note": "BTC daily bias +1"
+        },
+        {
+          "factor": "Trend strength (daily ADX >= 20)",
+          "points": 10,
+          "max": 10,
+          "note": "ADX 33.1"
+        },
+        {
+          "factor": "Price vs 4h EMA50",
+          "points": 5,
+          "max": 5,
+          "note": "EMA50 0.093135"
+        },
+        {
+          "factor": "4h CVD slope aligned",
+          "points": 10,
+          "max": 10,
+          "note": "+0.001"
+        },
+        {
+          "factor": "Live footprint delta aligned",
+          "points": 10,
+          "max": 10,
+          "note": "delta +21,283,910 over 71 min"
+        },
+        {
+          "factor": "Room to 2R (no strong S/R in the way)",
+          "points": 0,
+          "max": 10,
+          "note": "level 0.10154 (\u00d77, recency-weighted strength 1.54)"
+        },
+        {
+          "factor": "Funding not crowded against trade",
+          "points": 5,
+          "max": 5,
+          "note": "+0.0100% / 8h"
+        },
+        {
+          "factor": "OI confirms (new money with the move)",
+          "points": 5,
+          "max": 5,
+          "note": "OI +1.0%, price +2.1% (24h)"
+        },
+        {
+          "factor": "Retail not one-sided with trade",
+          "points": 0,
+          "max": 5,
+          "note": "retail L/S 2.52"
+        },
+        {
+          "factor": "News not against trade",
+          "points": 10,
+          "max": 10,
+          "note": "0 headlines, sentiment +0.00"
+        }
+      ],
+      "sizing": {
+        "equity": 1000.0,
+        "risk": 0.01,
+        "risk_usd": 10.0,
+        "qty": 1993.9098432270707,
+        "notional": 197.04732275387954,
+        "leverage": 1,
+        "capped": false
+      },
+      "grade": "A"
+    },
+    {
+      "pair": "DOTUSDT",
+      "symbol": "DOTUSDT",
+      "name": "Polkadot",
+      "price": 1.23404268,
+      "status": "PENDING",
+      "reason": "Daily trend up; wait for a pullback into the 4h EMA21 zone (~1.1618) and a 4h close back above EMA21 and the prior bar's high with positive taker delta.",
+      "last_bar": "2026-09-26T00:00:00+00:00",
+      "bias": 1,
+      "btc_bias": 1,
+      "atr": 0.037278651073142766,
+      "atr_pct": 0.03020855897232239,
+      "rsi": 60.742944195840074,
+      "adx_d1": 34.551923387998634,
+      "ema21": 1.1617654053994437,
+      "ema50": 1.135733065163068,
+      "validated": false,
+      "oos": {
+        "trades": 51,
+        "win_rate": 0.39215686274509803,
+        "avg_r": -0.061035215090959515,
+        "total_r": -3.112795969638935,
+        "profit_factor": 0.8903795706457189,
+        "max_dd_r": 7.4097971269688605,
+        "return_pct": -0.03414997133284514,
+        "max_dd_pct": 0.07446579391927421,
+        "t_stat": -0.3617840987878449
+      },
+      "oos_windows": 15,
+      "rule_set": "pullback|adx_min=15,of_min=0.0,tp1_r=0,trail_atr=3.5",
+      "rule_score": 1.2687708671803646,
+      "levels": {
+        "support": [
+          {
+            "price": 1.2176750000000003,
+            "low": 1.197,
+            "high": 1.236,
+            "touches": 12,
+            "strength": 3.5546111592941694,
+            "last_touch": "2026-09-22T20:00:00+00:00"
+          },
+          {
+            "price": 1.165588888888889,
+            "low": 1.139,
+            "high": 1.1797,
+            "touches": 9,
+            "strength": 5.762041898409988,
+            "last_touch": "2026-09-24T12:00:00+00:00"
+          },
+          {
+            "price": 1.10355,
+            "low": 1.099,
+            "high": 1.1081,
+            "touches": 2,
+            "strength": 0.7840431443424681,
+            "last_touch": "2026-09-07T16:00:00+00:00"
+          },
+          {
+            "price": 1.0748,
+            "low": 1.0748,
+            "high": 1.0748,
+            "touches": 2,
+            "strength": 1.9244730402825627,
+            "last_touch": "2026-09-23T16:00:00+00:00"
+          }
+        ],
+        "resistance": [
+          {
+            "price": 1.2822285714285715,
+            "low": 1.258,
+            "high": 1.302,
+            "touches": 7,
+            "strength": 1.9413587702732622,
+            "last_touch": "2026-09-08T20:00:00+00:00"
+          },
+          {
+            "price": 1.327,
+            "low": 1.309,
+            "high": 1.346,
+            "touches": 3,
+            "strength": 0.38182132628473087,
+            "last_touch": "2026-05-26T00:00:00+00:00"
+          },
+          {
+            "price": 1.3575,
+            "low": 1.355,
+            "high": 1.36,
+            "touches": 2,
+            "strength": 0.15577670830725646,
+            "last_touch": "2026-04-17T00:00:00+00:00"
+          },
+          {
+            "price": 1.4044,
+            "low": 1.388,
+            "high": 1.423,
+            "touches": 5,
+            "strength": 0.2733009501539699,
+            "last_touch": "2026-05-10T00:00:00+00:00"
+          }
+        ]
+      },
+      "profile": {
+        "poc": 1.165975625,
+        "vah": 1.2008699999999999,
+        "val": 1.11307125,
+        "hvn": [
+          1.096186875,
+          1.100689375,
+          1.114196875,
+          1.150216875,
+          1.1592218749999998,
+          1.165975625,
+          1.1704781249999998
+        ],
+        "window_start": "2026-09-23T01:32:00+00:00",
+        "window_end": "2026-09-26T01:31:00+00:00",
+        "delta_at_poc": -376812.351666661,
+        "total_delta": -7169115.699999969,
+        "total_volume": 214691158.89999998
+      },
+      "book": {
+        "bid_usd": 1578304.6603499998,
+        "ask_usd": 765523.6233400003,
+        "imbalance": 0.3467749931451462,
+        "bid_wall": 1.2221,
+        "bid_wall_usd": 164120.45297999997,
+        "ask_wall": 1.2505,
+        "ask_wall_usd": 168551.26855
+      },
+      "positioning": {
+        "funding": 0.0001,
+        "mark": 1.23404268,
+        "next_funding": "2026-09-26T08:00:00+00:00",
+        "oi_usd": 40478137.85392647,
+        "oi_chg_24h": -0.00722978122627238,
+        "px_chg_24h": 0.05091913351169408,
+        "retail_ls": 1.6759,
+        "retail_long_pct": 0.6263,
+        "top_ls": 2.2261
+      },
+      "news": {
+        "count": 0,
+        "sentiment": 0.0,
+        "headlines": [],
+        "high_impact": []
+      },
+      "footprint": {
+        "start": "2026-09-26T01:10:00+00:00",
+        "end": "2026-09-26T01:31:03.637000+00:00",
+        "minutes": 21.060616666666665,
+        "n_trades": 8000,
+        "tick": 0.0005,
+        "bar": "5min",
+        "window_delta": -97724.00000000003,
+        "window_volume": 2717993.5999999996,
+        "delta_pct": -0.03595446288026581,
+        "stacked_buy_zones": [],
+        "stacked_sell_zones": [
+          [
+            1.239,
+            1.24
+          ]
+        ],
+        "absorption_buy_bars": 0,
+        "absorption_sell_bars": 0,
+        "recent_bars": [
+          {
+            "time": "2026-09-26T01:10:00+00:00",
+            "open": 1.2362,
+            "high": 1.2416,
+            "low": 1.2347,
+            "close": 1.2386,
+            "volume": 319439.6,
+            "delta": 6314.600000000006,
+            "poc": 1.239
+          },
+          {
+            "time": "2026-09-26T01:15:00+00:00",
+            "open": 1.2385,
+            "high": 1.252,
+            "low": 1.2379,
+            "close": 1.2482,
+            "volume": 863982.3,
+            "delta": 279581.1000000001,
+            "poc": 1.248
+          },
+          {
+            "time": "2026-09-26T01:20:00+00:00",
+            "open": 1.248,
+            "high": 1.2549,
+            "low": 1.244,
+            "close": 1.2451,
+            "volume": 937258.2,
+            "delta": -207333.79999999993,
+            "poc": 1.25
+          },
+          {
+            "time": "2026-09-26T01:25:00+00:00",
+            "open": 1.245,
+            "high": 1.2485,
+            "low": 1.2336,
+            "close": 1.2359,
+            "volume": 495568.7,
+            "delta": -143396.10000000015,
+            "poc": 1.236
+          },
+          {
+            "time": "2026-09-26T01:30:00+00:00",
+            "open": 1.236,
+            "high": 1.2372,
+            "low": 1.2338,
+            "close": 1.2358,
+            "volume": 101744.79999999999,
+            "delta": -32889.80000000002,
+            "poc": 1.2345
+          }
+        ]
+      },
+      "cvd_slope_4h": -0.019315908908873004,
+      "plan": {
+        "status": "PENDING",
+        "dir": 1,
+        "side": "LONG",
+        "why": "Daily trend up; wait for a pullback into the 4h EMA21 zone (~1.1618) and a 4h close back above EMA21 and the prior bar's high with positive taker delta.",
+        "strategy": "pullback",
+        "entry": 1.1617654053994437,
+        "stop": 1.1192803372317144,
+        "risk_pct": 0.03656940374560553,
+        "tp1": 1.204250473567173,
+        "tp2": 1.2467355417349024,
+        "tp3": 1.2892206099026318,
+        "partial": false,
+        "trail_atr": 3.5,
+        "management": "At +1R move stop to entry, then trail the rest 3.5x ATR(4h) behind the best price. TP2/TP3 are reference levels for manual scaling."
+      },
+      "score": 75,
+      "score_parts": [
+        {
+          "factor": "Daily trend aligned",
+          "points": 20,
+          "max": 20,
+          "note": "daily bias +1"
+        },
+        {
+          "factor": "BTC trend aligned",
+          "points": 10,
+          "max": 10,
+          "note": "BTC daily bias +1"
+        },
+        {
+          "factor": "Trend strength (daily ADX >= 20)",
+          "points": 10,
+          "max": 10,
+          "note": "ADX 34.6"
+        },
+        {
+          "factor": "Price vs 4h EMA50",
+          "points": 5,
+          "max": 5,
+          "note": "EMA50 1.1357"
+        },
+        {
+          "factor": "4h CVD slope aligned",
+          "points": 0,
+          "max": 10,
+          "note": "-0.019"
+        },
+        {
+          "factor": "Live footprint delta aligned",
+          "points": 0,
+          "max": 10,
+          "note": "delta -97,724 over 21 min"
+        },
+        {
+          "factor": "Room to 2R (no strong S/R in the way)",
+          "points": 10,
+          "max": 10,
+          "note": "clear"
+        },
+        {
+          "factor": "Funding not crowded against trade",
+          "points": 5,
+          "max": 5,
+          "note": "+0.0100% / 8h"
+        },
+        {
+          "factor": "OI confirms (new money with the move)",
+          "points": 0,
+          "max": 5,
+          "note": "OI -0.7%, price +5.1% (24h)"
+        },
+        {
+          "factor": "Retail not one-sided with trade",
+          "points": 5,
+          "max": 5,
+          "note": "retail L/S 1.68"
+        },
+        {
+          "factor": "News not against trade",
+          "points": 10,
+          "max": 10,
+          "note": "0 headlines, sentiment +0.00"
+        }
+      ],
+      "sizing": {
+        "equity": 1000.0,
+        "risk": 0.01,
+        "risk_usd": 10.0,
+        "qty": 235.37681428497186,
+        "notional": 273.4526400694099,
+        "leverage": 1,
+        "capped": false
+      },
+      "grade": "C (rule set not validated out-of-sample for this pair)"
+    },
+    {
+      "pair": "AVAXUSDT",
+      "symbol": "AVAXUSDT",
+      "name": "Avalanche",
+      "price": 10.749,
+      "status": "PENDING",
+      "reason": "Daily trend up; enter on a 4h CLOSE above the 20-bar Donchian high (~11.404) on volume > 1.2x average and buy-side taker delta.",
+      "last_bar": "2026-09-26T00:00:00+00:00",
+      "bias": 1,
+      "btc_bias": 1,
+      "atr": 0.39333738562552223,
+      "atr_pct": 0.036592928237559046,
+      "rsi": 55.45626669304329,
+      "adx_d1": 44.612642138298845,
+      "ema21": 10.4415369634937,
+      "ema50": 9.982560378524648,
+      "validated": false,
+      "oos": {
+        "trades": 54,
+        "win_rate": 0.5370370370370371,
+        "avg_r": 0.04392871696004327,
+        "total_r": 2.3721507158423365,
+        "profit_factor": 1.0920687234059274,
+        "max_dd_r": 7.827458044980508,
+        "return_pct": 0.020887444231729058,
+        "max_dd_pct": 0.07710581830299369,
+        "t_stat": 0.300806592499729
+      },
+      "oos_windows": 15,
+      "rule_set": "breakout|n=20,tp1_r=1.0,trail_atr=3.5,vol_mult=1.2",
+      "rule_score": 0.14506622916675604,
+      "levels": {
+        "support": [
+          {
+            "price": 10.55825,
+            "low": 10.483,
+            "high": 10.693,
+            "touches": 4,
+            "strength": 2.0989241136172705,
+            "last_touch": "2026-09-24T20:00:00+00:00"
+          },
+          {
+            "price": 10.100285714285715,
+            "low": 9.955,
+            "high": 10.355,
+            "touches": 7,
+            "strength": 3.137963969706049,
+            "last_touch": "2026-09-25T04:00:00+00:00"
+          },
+          {
+            "price": 9.666583333333334,
+            "low": 9.449,
+            "high": 9.841,
+            "touches": 12,
+            "strength": 0.818197525965672,
+            "last_touch": "2026-05-22T00:00:00+00:00"
+          },
+          {
+            "price": 9.14,
+            "low": 9.138,
+            "high": 9.142,
+            "touches": 2,
+            "strength": 0.11633172435474895,
+            "last_touch": "2026-04-23T00:00:00+00:00"
+          }
+        ],
+        "resistance": [
+          {
+            "price": 11.296000000000001,
+            "low": 11.223,
+            "high": 11.404,
+            "touches": 3,
+            "strength": 0.9939006546955207,
+            "last_touch": "2026-09-23T00:00:00+00:00"
+          },
+          {
+            "price": 11.8115,
+            "low": 11.792,
+            "high": 11.862,
+            "touches": 4,
+            "strength": 1.892557260946294,
+            "last_touch": "2026-09-21T00:00:00+00:00"
+          },
+          {
+            "price": 12.240666666666668,
+            "low": 12.189,
+            "high": 12.283,
+            "touches": 3,
+            "strength": 0.04898610011186759,
+            "last_touch": "2026-01-28T00:00:00+00:00"
+          },
+          {
+            "price": 13.380333333333333,
+            "low": 13.198,
+            "high": 13.58,
+            "touches": 3,
+            "strength": 0.052558382250817604,
+            "last_touch": "2026-01-12T00:00:00+00:00"
+          }
+        ]
+      },
+      "profile": {
+        "poc": 10.303149999999999,
+        "vah": 10.6164,
+        "val": 10.0794,
+        "hvn": [
+          10.24945,
+          10.303149999999999,
+          10.41055,
+          10.625350000000001
+        ],
+        "window_start": "2026-09-23T01:32:00+00:00",
+        "window_end": "2026-09-26T01:31:00+00:00",
+        "delta_at_poc": -119827.79577922123,
+        "total_delta": -3228652.000000001,
+        "total_volume": 73126186.0
+      },
+      "book": {
+        "bid_usd": 1493783.2659999994,
+        "ask_usd": 1375907.4990000008,
+        "imbalance": 0.04107612166358231,
+        "bid_wall": 10.629,
+        "bid_wall_usd": 246082.60799999998,
+        "ask_wall": 10.805,
+        "ask_wall_usd": 242907.205
+      },
+      "positioning": {
+        "funding": 0.0001,
+        "mark": 10.749,
+        "next_funding": "2026-09-26T08:00:00+00:00",
+        "oi_usd": 112782370.54,
+        "oi_chg_24h": 0.009477407203920984,
+        "px_chg_24h": 0.03621769772905248,
+        "retail_ls": 2.0845,
+        "retail_long_pct": 0.6758,
+        "top_ls": 2.677
+      },
+      "news": {
+        "count": 0,
+        "sentiment": 0.0,
+        "headlines": [],
+        "high_impact": []
+      },
+      "footprint": {
+        "start": "2026-09-26T00:30:00+00:00",
+        "end": "2026-09-26T01:31:12.799000+00:00",
+        "minutes": 61.213316666666664,
+        "n_trades": 8000,
+        "tick": 0.005,
+        "bar": "5min",
+        "window_delta": 92093.0,
+        "window_volume": 841931.0,
+        "delta_pct": 0.10938307295966058,
+        "stacked_buy_zones": [
+          [
+            10.59,
+            10.6
+          ],
+          [
+            10.685,
+            10.705
+          ]
+        ],
+        "stacked_sell_zones": [],
+        "absorption_buy_bars": 0,
+        "absorption_sell_bars": 0,
+        "recent_bars": [
+          {
+            "time": "2026-09-26T01:05:00+00:00",
+            "open": 10.651,
+            "high": 10.704,
+            "low": 10.624,
+            "close": 10.633,
+            "volume": 103445.0,
+            "delta": 9611.0,
+            "poc": 10.69
+          },
+          {
+            "time": "2026-09-26T01:10:00+00:00",
+            "open": 10.634,
+            "high": 10.653,
+            "low": 10.621,
+            "close": 10.643,
+            "volume": 29035.0,
+            "delta": 1017.0,
+            "poc": 10.635
+          },
+          {
+            "time": "2026-09-26T01:15:00+00:00",
+            "open": 10.642,
+            "high": 10.736,
+            "low": 10.629,
+            "close": 10.701,
+            "volume": 87686.0,
+            "delta": 14760.0,
+            "poc": 10.705
+          },
+          {
+            "time": "2026-09-26T01:20:00+00:00",
+            "open": 10.7,
+            "high": 10.785,
+            "low": 10.7,
+            "close": 10.774,
+            "volume": 186289.0,
+            "delta": 30955.0,
+            "poc": 10.76
+          },
+          {
+            "time": "2026-09-26T01:25:00+00:00",
+            "open": 10.773,
+            "high": 10.804,
+            "low": 10.723,
+            "close": 10.725,
+            "volume": 139157.0,
+            "delta": 4721.0,
+            "poc": 10.755
+          },
+          {
+            "time": "2026-09-26T01:30:00+00:00",
+            "open": 10.726,
+            "high": 10.762,
+            "low": 10.723,
+            "close": 10.762,
+            "volume": 26592.0,
+            "delta": 7498.0,
+            "poc": 10.735
+          }
+        ]
+      },
+      "cvd_slope_4h": -0.017494072926524724,
+      "plan": {
+        "status": "PENDING",
+        "dir": 1,
+        "side": "LONG",
+        "why": "Daily trend up; enter on a 4h CLOSE above the 20-bar Donchian high (~11.404) on volume > 1.2x average and buy-side taker delta.",
+        "strategy": "breakout",
+        "entry": 11.443333738562552,
+        "stop": 10.853327660124268,
+        "risk_pct": 0.05155893307996778,
+        "tp1": 12.033339817000837,
+        "tp2": 12.62334589543912,
+        "tp3": 13.213351973877405,
+        "partial": true,
+        "trail_atr": 3.5,
+        "management": "Close 50% at TP1 (1.0R), move stop to entry, then trail the rest 3.5x ATR(4h) behind the best price. TP2/TP3 are reference levels for manual scaling."
+      },
+      "score": 80,
+      "score_parts": [
+        {
+          "factor": "Daily trend aligned",
+          "points": 20,
+          "max": 20,
+          "note": "daily bias +1"
+        },
+        {
+          "factor": "BTC trend aligned",
+          "points": 10,
+          "max": 10,
+          "note": "BTC daily bias +1"
+        },
+        {
+          "factor": "Trend strength (daily ADX >= 20)",
+          "points": 10,
+          "max": 10,
+          "note": "ADX 44.6"
+        },
+        {
+          "factor": "Price vs 4h EMA50",
+          "points": 5,
+          "max": 5,
+          "note": "EMA50 9.9826"
+        },
+        {
+          "factor": "4h CVD slope aligned",
+          "points": 0,
+          "max": 10,
+          "note": "-0.017"
+        },
+        {
+          "factor": "Live footprint delta aligned",
+          "points": 10,
+          "max": 10,
+          "note": "delta +92,093 over 61 min"
+        },
+        {
+          "factor": "Room to 2R (no strong S/R in the way)",
+          "points": 0,
+          "max": 10,
+          "note": "level 11.812 (\u00d74, recency-weighted strength 1.89)"
+        },
+        {
+          "factor": "Funding not crowded against trade",
+          "points": 5,
+          "max": 5,
+          "note": "+0.0100% / 8h"
+        },
+        {
+          "factor": "OI confirms (new money with the move)",
+          "points": 5,
+          "max": 5,
+          "note": "OI +0.9%, price +3.6% (24h)"
+        },
+        {
+          "factor": "Retail not one-sided with trade",
+          "points": 5,
+          "max": 5,
+          "note": "retail L/S 2.08"
+        },
+        {
+          "factor": "News not against trade",
+          "points": 10,
+          "max": 10,
+          "note": "0 headlines, sentiment +0.00"
+        }
+      ],
+      "sizing": {
+        "equity": 1000.0,
+        "risk": 0.01,
+        "risk_usd": 10.0,
+        "qty": 16.948977926582533,
+        "notional": 193.95281094141387,
+        "leverage": 1,
+        "capped": false
+      },
+      "grade": "C (rule set not validated out-of-sample for this pair)"
+    },
+    {
+      "pair": "BNBUSDT",
+      "symbol": "BNBUSDT",
+      "name": "BNB",
+      "price": 776.15,
+      "status": "PENDING",
+      "reason": "Daily trend up; wait for a pullback into the 4h EMA21 zone (~776.36) and a 4h close back above EMA21 and the prior bar's high with positive taker delta.",
+      "last_bar": "2026-09-26T00:00:00+00:00",
+      "bias": 1,
+      "btc_bias": 1,
+      "atr": 10.42169908240203,
+      "atr_pct": 0.013427429082525325,
+      "rsi": 51.80253177019804,
+      "adx_d1": 36.37425414613595,
+      "ema21": 776.3555942036458,
+      "ema50": 768.4688385283328,
+      "validated": true,
+      "oos": {
+        "trades": 67,
+        "win_rate": 0.5223880597014925,
+        "avg_r": 0.11993224658128333,
+        "total_r": 8.035460520945984,
+        "profit_factor": 1.2388250805002576,
+        "max_dd_r": 8.435440648343874,
+        "return_pct": 0.07845580158944054,
+        "max_dd_pct": 0.08137617642645151,
+        "t_stat": 0.8140866990901291
+      },
+      "oos_windows": 15,
+      "rule_set": "pullback|adx_min=22,of_min=0.06,tp1_r=0,trail_atr=2.5",
+      "rule_score": 0.22509665168556622,
+      "levels": {
+        "support": [
+          {
+            "price": 759.4119999999999,
+            "low": 756.89,
+            "high": 763.37,
+            "touches": 5,
+            "strength": 4.440922955090998,
+            "last_touch": "2026-09-24T08:00:00+00:00"
+          },
+          {
+            "price": 742.858,
+            "low": 740.39,
+            "high": 746.59,
+            "touches": 5,
+            "strength": 3.4334986059224346,
+            "last_touch": "2026-09-20T00:00:00+00:00"
+          },
+          {
+            "price": 732.6733333333333,
+            "low": 730.65,
+            "high": 734.13,
+            "touches": 3,
+            "strength": 2.312523249473142,
+            "last_touch": "2026-09-14T20:00:00+00:00"
+          },
+          {
+            "price": 721.78375,
+            "low": 716.15,
+            "high": 727.15,
+            "touches": 8,
+            "strength": 5.168514314084111,
+            "last_touch": "2026-09-15T16:00:00+00:00"
+          }
+        ],
+        "resistance": [
+          {
+            "price": 777.44,
+            "low": 769.57,
+            "high": 781.44,
+            "touches": 5,
+            "strength": 4.210967490411893,
+            "last_touch": "2026-09-22T12:00:00+00:00"
+          },
+          {
+            "price": 787.9866666666667,
+            "low": 786.38,
+            "high": 790.92,
+            "touches": 3,
+            "strength": 1.9831089417398255,
+            "last_touch": "2026-09-25T08:00:00+00:00"
+          },
+          {
+            "price": 800.69,
+            "low": 799.98,
+            "high": 801.4,
+            "touches": 2,
+            "strength": 0.9697783905987722,
+            "last_touch": "2026-09-23T04:00:00+00:00"
+          },
+          {
+            "price": 808.23,
+            "low": 808.23,
+            "high": 808.23,
+            "touches": 2,
+            "strength": 1.863686044460863,
+            "last_touch": "2026-09-21T12:00:00+00:00"
+          }
+        ]
+      },
+      "profile": {
+        "poc": 776.0111875,
+        "vah": 784.359875,
+        "val": 766.58525,
+        "hvn": [
+          766.3159375,
+          773.8566874999999,
+          776.0111875,
+          777.6270625,
+          780.3201875
+        ],
+        "window_start": "2026-09-23T01:32:00+00:00",
+        "window_end": "2026-09-26T01:31:00+00:00",
+        "delta_at_poc": -5394.501996392522,
+        "total_delta": -77692.18000000004,
+        "total_volume": 1610657.16
+      },
+      "book": {
+        "bid_usd": 3390366.1446999977,
+        "ask_usd": 4402307.054999999,
+        "imbalance": -0.1298579940884675,
+        "bid_wall": 773.76,
+        "bid_wall_usd": 166799.44319999998,
+        "ask_wall": 780.0,
+        "ask_wall_usd": 175383.0
+      },
+      "positioning": {
+        "funding": 1.547e-05,
+        "mark": 776.15,
+        "next_funding": "2026-09-26T08:00:00+00:00",
+        "oi_usd": 445563813.1476,
+        "oi_chg_24h": 0.00020852827301931498,
+        "px_chg_24h": -0.001722852220422122,
+        "retail_ls": 2.076,
+        "retail_long_pct": 0.6749,
+        "top_ls": 1.4161
+      },
+      "news": {
+        "count": 0,
+        "sentiment": 0.0,
+        "headlines": [],
+        "high_impact": []
+      },
+      "footprint": {
+        "start": "2026-09-26T00:05:00+00:00",
+        "end": "2026-09-26T01:31:17.486000+00:00",
+        "minutes": 86.29143333333333,
+        "n_trades": 8000,
+        "tick": 0.2,
+        "bar": "5min",
+        "window_delta": -1171.0000000000002,
+        "window_volume": 11021.699999999999,
+        "delta_pct": -0.10624495313790072,
+        "stacked_buy_zones": [],
+        "stacked_sell_zones": [],
+        "absorption_buy_bars": 1,
+        "absorption_sell_bars": 0,
+        "recent_bars": [
+          {
+            "time": "2026-09-26T01:05:00+00:00",
+            "open": 776.5,
+            "high": 776.92,
+            "low": 776.18,
+            "close": 776.18,
+            "volume": 391.84999999999997,
+            "delta": -93.48999999999998,
+            "poc": 776.4000000000001
+          },
+          {
+            "time": "2026-09-26T01:10:00+00:00",
+            "open": 776.18,
+            "high": 776.5,
+            "low": 775.81,
+            "close": 776.2,
+            "volume": 626.9200000000001,
+            "delta": -142.98000000000008,
+            "poc": 776.2
+          },
+          {
+            "time": "2026-09-26T01:15:00+00:00",
+            "open": 776.2,
+            "high": 776.73,
+            "low": 776.15,
+            "close": 776.25,
+            "volume": 547.83,
+            "delta": -222.69000000000005,
+            "poc": 776.4000000000001
+          },
+          {
+            "time": "2026-09-26T01:20:00+00:00",
+            "open": 776.25,
+            "high": 776.68,
+            "low": 776.01,
+            "close": 776.18,
+            "volume": 502.6,
+            "delta": -5.860000000000042,
+            "poc": 776.6
+          },
+          {
+            "time": "2026-09-26T01:25:00+00:00",
+            "open": 776.18,
+            "high": 776.44,
+            "low": 775.78,
+            "close": 775.8,
+            "volume": 194.42000000000002,
+            "delta": -37.459999999999994,
+            "poc": 776.0
+          },
+          {
+            "time": "2026-09-26T01:30:00+00:00",
+            "open": 775.8,
+            "high": 776.16,
+            "low": 775.8,
+            "close": 776.15,
+            "volume": 88.21000000000001,
+            "delta": 81.14999999999999,
+            "poc": 775.8000000000001
+          }
+        ]
+      },
+      "cvd_slope_4h": -0.06826860163021066,
+      "plan": {
+        "status": "PENDING",
+        "dir": 1,
+        "side": "LONG",
+        "why": "Daily trend up; wait for a pullback into the 4h EMA21 zone (~776.36) and a 4h close back above EMA21 and the prior bar's high with positive taker delta.",
+        "strategy": "pullback",
+        "entry": 776.15,
+        "stop": 765.2072159634779,
+        "risk_pct": 0.01409880053665153,
+        "tp1": 787.0927840365221,
+        "tp2": 798.0355680730441,
+        "tp3": 808.9783521095662,
+        "partial": false,
+        "trail_atr": 2.5,
+        "management": "At +1R move stop to entry, then trail the rest 2.5x ATR(4h) behind the best price. TP2/TP3 are reference levels for manual scaling."
+      },
+      "score": 65,
+      "score_parts": [
+        {
+          "factor": "Daily trend aligned",
+          "points": 20,
+          "max": 20,
+          "note": "daily bias +1"
+        },
+        {
+          "factor": "BTC trend aligned",
+          "points": 10,
+          "max": 10,
+          "note": "BTC daily bias +1"
+        },
+        {
+          "factor": "Trend strength (daily ADX >= 20)",
+          "points": 10,
+          "max": 10,
+          "note": "ADX 36.4"
+        },
+        {
+          "factor": "Price vs 4h EMA50",
+          "points": 5,
+          "max": 5,
+          "note": "EMA50 768.47"
+        },
+        {
+          "factor": "4h CVD slope aligned",
+          "points": 0,
+          "max": 10,
+          "note": "-0.068"
+        },
+        {
+          "factor": "Live footprint delta aligned",
+          "points": 0,
+          "max": 10,
+          "note": "delta -1,171 over 86 min"
+        },
+        {
+          "factor": "Room to 2R (no strong S/R in the way)",
+          "points": 0,
+          "max": 10,
+          "note": "level 777.44 (\u00d75, recency-weighted strength 4.21)"
+        },
+        {
+          "factor": "Funding not crowded against trade",
+          "points": 5,
+          "max": 5,
+          "note": "+0.0015% / 8h"
+        },
+        {
+          "factor": "OI confirms (new money with the move)",
+          "points": 0,
+          "max": 5,
+          "note": "OI +0.0%, price -0.2% (24h)"
+        },
+        {
+          "factor": "Retail not one-sided with trade",
+          "points": 5,
+          "max": 5,
+          "note": "retail L/S 2.08"
+        },
+        {
+          "factor": "News not against trade",
+          "points": 10,
+          "max": 10,
+          "note": "0 headlines, sentiment +0.00"
+        }
+      ],
+      "sizing": {
+        "equity": 1000.0,
+        "risk": 0.01,
+        "risk_usd": 10.0,
+        "qty": 0.9138442252560687,
+        "notional": 709.2801954324976,
+        "leverage": 1,
+        "capped": false
+      },
+      "grade": "B (pending trigger)"
+    },
+    {
+      "pair": "SOLUSDT",
+      "symbol": "SOLUSDT",
+      "name": "Solana",
+      "price": 121.62,
+      "status": "PENDING",
+      "reason": "Daily trend up; wait for a pullback into the 4h EMA21 zone (~117.37) and a 4h close back above EMA21 and the prior bar's high with positive taker delta.",
+      "last_bar": "2026-09-26T00:00:00+00:00",
+      "bias": 1,
+      "btc_bias": 1,
+      "atr": 2.504608176294069,
+      "atr_pct": 0.020593719588012406,
+      "rsi": 67.98489966395573,
+      "adx_d1": 43.959113897773506,
+      "ema21": 117.3715094575498,
+      "ema50": 113.74688360464867,
+      "validated": false,
+      "oos": {
+        "trades": 39,
+        "win_rate": 0.358974358974359,
+        "avg_r": -0.05806104391177748,
+        "total_r": -2.264380712559322,
+        "profit_factor": 0.9091135911039522,
+        "max_dd_r": 11.924583354722406,
+        "return_pct": -0.026335334887329087,
+        "max_dd_pct": 0.11369834606086093,
+        "t_stat": -0.24712891613164908
+      },
+      "oos_windows": 15,
+      "rule_set": "pullback|adx_min=22,of_min=0.0,tp1_r=0,trail_atr=2.5",
+      "rule_score": 0.6397770331642884,
+      "levels": {
+        "support": [
+          {
+            "price": 119.96600000000001,
+            "low": 119.15,
+            "high": 121.02,
+            "touches": 5,
+            "strength": 2.851578158422722,
+            "last_touch": "2026-09-23T04:00:00+00:00"
+          },
+          {
+            "price": 115.61333333333333,
+            "low": 114.32,
+            "high": 117.0,
+            "touches": 6,
+            "strength": 3.7530937681240015,
+            "last_touch": "2026-09-25T04:00:00+00:00"
+          },
+          {
+            "price": 112.595,
+            "low": 112.39,
+            "high": 112.8,
+            "touches": 2,
+            "strength": 1.9418572112172563,
+            "last_touch": "2026-09-24T08:00:00+00:00"
+          },
+          {
+            "price": 110.6,
+            "low": 110.6,
+            "high": 110.6,
+            "touches": 2,
+            "strength": 1.2713189397800828,
+            "last_touch": "2026-08-27T20:00:00+00:00"
+          }
+        ],
+        "resistance": [
+          {
+            "price": 123.65,
+            "low": 123.05,
+            "high": 124.25,
+            "touches": 2,
+            "strength": 0.0316695101786927,
+            "last_touch": "2026-01-20T00:00:00+00:00"
+          },
+          {
+            "price": 128.73499999999999,
+            "low": 127.55,
+            "high": 130.21,
+            "touches": 6,
+            "strength": 0.08452162415162442,
+            "last_touch": "2026-01-28T00:00:00+00:00"
+          },
+          {
+            "price": 144.7,
+            "low": 143.45,
+            "high": 145.67,
+            "touches": 5,
+            "strength": 0.05313472684440912,
+            "last_touch": "2026-01-06T00:00:00+00:00"
+          }
+        ]
+      },
+      "profile": {
+        "poc": 117.067125,
+        "vah": 122.27125000000001,
+        "val": 115.15675,
+        "hvn": [
+          114.563875,
+          117.067125
+        ],
+        "window_start": "2026-09-23T01:32:00+00:00",
+        "window_end": "2026-09-26T01:31:00+00:00",
+        "delta_at_poc": -30904.27749999985,
+        "total_delta": -1052018.4899999988,
+        "total_volume": 71589420.22999999
+      },
+      "book": {
+        "bid_usd": 15915758.108799996,
+        "ask_usd": 17961430.573500007,
+        "imbalance": -0.06038495354157959,
+        "bid_wall": 118.5,
+        "bid_wall_usd": 4042949.8200000003,
+        "ask_wall": 122.9,
+        "ask_wall_usd": 1689641.4900000002
+      },
+      "positioning": {
+        "funding": 4.725e-05,
+        "mark": 121.62,
+        "next_funding": "2026-09-26T08:00:00+00:00",
+        "oi_usd": 1048074890.9833214,
+        "oi_chg_24h": 0.07542337910583474,
+        "px_chg_24h": 0.034929289487135806,
+        "retail_ls": 1.4408,
+        "retail_long_pct": 0.5903,
+        "top_ls": 2.2085
+      },
+      "news": {
+        "count": 5,
+        "sentiment": 0.2,
+        "headlines": [
+          {
+            "title": "Former Hack VC partner Hsin-Ju Chuang\u2019s death ruled a suicide",
+            "source": "Cointelegraph",
+            "time": "2026-09-25T18:33:49+00:00",
+            "link": "https://cointelegraph.com/news/former-hack-vc-partner-hsin-ju-chuang-found-dead?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+            "score": -1.0
+          },
+          {
+            "title": "Bitcoin Rally Slows as $15.6 Billion Options Expiry Hits\u2014XRP and Solana Keep Climbing",
+            "source": "Decrypt",
+            "time": "2026-09-25T16:06:23+00:00",
+            "link": "https://decrypt.co/379319/bitcoin-slows-billion-options-expiry-xrp-solana",
+            "score": 1.0
+          },
+          {
+            "title": "Solana treasury firm SkyAI keeps board after shareholder protest, loses equity plan vote",
+            "source": "The Block",
+            "time": "2026-09-24T19:17:47+00:00",
+            "link": "https://www.theblock.co/news/business/2026-09-24-solana-treasury-skyai-keeps-board-shareholder-protest-loses-equity-plan-vote-416298",
+            "score": 0.0
+          },
+          {
+            "title": "Solana Foundation Hires Binance's Former Global CMO for Institutional Push",
+            "source": "Decrypt",
+            "time": "2026-09-24T13:03:03+00:00",
+            "link": "https://decrypt.co/379179/solana-foundation-hires-binances-former-global-cmo-for-institutional-push",
+            "score": 0.0
+          },
+          {
+            "title": "Solana Foundation taps Binance, Polygon vets to drive institutional adoption and payments",
+            "source": "The Block",
+            "time": "2026-09-24T13:00:00+00:00",
+            "link": "https://www.theblock.co/news/ecosystems/2026-09-24-solana-foundation-taps-binance-polygon-vets-to-drive-institutional-adoption-and-payments-416254",
+            "score": 1.0
+          }
+        ],
+        "high_impact": [
+          "Former Hack VC partner Hsin-Ju Chuang\u2019s death ruled a suicide"
+        ]
+      },
+      "footprint": {
+        "start": "2026-09-26T00:45:00+00:00",
+        "end": "2026-09-26T01:31:32.178000+00:00",
+        "minutes": 46.5363,
+        "n_trades": 8000,
+        "tick": 0.05,
+        "bar": "5min",
+        "window_delta": -2080.4399999999996,
+        "window_volume": 313160.38,
+        "delta_pct": -0.006643369126068884,
+        "stacked_buy_zones": [],
+        "stacked_sell_zones": [
+          [
+            121.75,
+            121.85000000000001
+          ]
+        ],
+        "absorption_buy_bars": 0,
+        "absorption_sell_bars": 0,
+        "recent_bars": [
+          {
+            "time": "2026-09-26T01:05:00+00:00",
+            "open": 121.54,
+            "high": 121.79,
+            "low": 121.49,
+            "close": 121.5,
+            "volume": 29529.1,
+            "delta": -1114.1800000000003,
+            "poc": 121.65
+          },
+          {
+            "time": "2026-09-26T01:10:00+00:00",
+            "open": 121.5,
+            "high": 121.75,
+            "low": 121.49,
+            "close": 121.66,
+            "volume": 42919.670000000006,
+            "delta": -8975.75,
+            "poc": 121.7
+          },
+          {
+            "time": "2026-09-26T01:15:00+00:00",
+            "open": 121.66,
+            "high": 121.96,
+            "low": 121.62,
+            "close": 121.87,
+            "volume": 39390.46000000001,
+            "delta": 4933.079999999998,
+            "poc": 121.9
+          },
+          {
+            "time": "2026-09-26T01:20:00+00:00",
+            "open": 121.86,
+            "high": 122.0,
+            "low": 121.71,
+            "close": 121.73,
+            "volume": 38928.37,
+            "delta": -13007.05,
+            "poc": 121.95
+          },
+          {
+            "time": "2026-09-26T01:25:00+00:00",
+            "open": 121.73,
+            "high": 121.81,
+            "low": 121.5,
+            "close": 121.55,
+            "volume": 28000.97,
+            "delta": -1296.4899999999998,
+            "poc": 121.80000000000001
+          },
+          {
+            "time": "2026-09-26T01:30:00+00:00",
+            "open": 121.56,
+            "high": 121.66,
+            "low": 121.52,
+            "close": 121.59,
+            "volume": 5425.85,
+            "delta": -44.789999999999964,
+            "poc": 121.55000000000001
+          }
+        ]
+      },
+      "cvd_slope_4h": -0.005410447115678347,
+      "plan": {
+        "status": "PENDING",
+        "dir": 1,
+        "side": "LONG",
+        "why": "Daily trend up; wait for a pullback into the 4h EMA21 zone (~117.37) and a 4h close back above EMA21 and the prior bar's high with positive taker delta.",
+        "strategy": "pullback",
+        "entry": 117.3715094575498,
+        "stop": 114.74167087244103,
+        "risk_pct": 0.022406106876046567,
+        "tp1": 120.00134804265858,
+        "tp2": 122.63118662776735,
+        "tp3": 125.26102521287612,
+        "partial": false,
+        "trail_atr": 2.5,
+        "management": "At +1R move stop to entry, then trail the rest 2.5x ATR(4h) behind the best price. TP2/TP3 are reference levels for manual scaling."
+      },
+      "score": 80,
+      "score_parts": [
+        {
+          "factor": "Daily trend aligned",
+          "points": 20,
+          "max": 20,
+          "note": "daily bias +1"
+        },
+        {
+          "factor": "BTC trend aligned",
+          "points": 10,
+          "max": 10,
+          "note": "BTC daily bias +1"
+        },
+        {
+          "factor": "Trend strength (daily ADX >= 20)",
+          "points": 10,
+          "max": 10,
+          "note": "ADX 44.0"
+        },
+        {
+          "factor": "Price vs 4h EMA50",
+          "points": 5,
+          "max": 5,
+          "note": "EMA50 113.75"
+        },
+        {
+          "factor": "4h CVD slope aligned",
+          "points": 0,
+          "max": 10,
+          "note": "-0.005"
+        },
+        {
+          "factor": "Live footprint delta aligned",
+          "points": 0,
+          "max": 10,
+          "note": "delta -2,080 over 47 min"
+        },
+        {
+          "factor": "Room to 2R (no strong S/R in the way)",
+          "points": 10,
+          "max": 10,
+          "note": "clear"
+        },
+        {
+          "factor": "Funding not crowded against trade",
+          "points": 5,
+          "max": 5,
+          "note": "+0.0047% / 8h"
+        },
+        {
+          "factor": "OI confirms (new money with the move)",
+          "points": 5,
+          "max": 5,
+          "note": "OI +7.5%, price +3.5% (24h)"
+        },
+        {
+          "factor": "Retail not one-sided with trade",
+          "points": 5,
+          "max": 5,
+          "note": "retail L/S 1.44"
+        },
+        {
+          "factor": "News not against trade",
+          "points": 10,
+          "max": 10,
+          "note": "5 headlines, sentiment +0.20"
+        }
+      ],
+      "sizing": {
+        "equity": 1000.0,
+        "risk": 0.01,
+        "risk_usd": 10.0,
+        "qty": 3.8025147461992974,
+        "notional": 446.30689549600345,
+        "leverage": 1,
+        "capped": false
+      },
+      "grade": "C (rule set not validated out-of-sample for this pair)"
+    },
+    {
+      "pair": "MATICUSDT",
+      "symbol": "POLUSDT",
+      "name": "Polygon (POL, ex-MATIC)",
+      "price": 0.11652,
+      "status": "ACTIVE",
+      "reason": "pullback rule fired on the 4h bar closed 2026-09-26 00:00 UTC",
+      "last_bar": "2026-09-26T00:00:00+00:00",
+      "bias": 1,
+      "btc_bias": 1,
+      "atr": 0.0035173708664161868,
+      "atr_pct": 0.030186842313904796,
+      "rsi": 70.23144707246225,
+      "adx_d1": 19.259338101915496,
+      "ema21": 0.10875563453573343,
+      "ema50": 0.10606902699445628,
+      "validated": false,
+      "oos": {
+        "trades": 30,
+        "win_rate": 0.5666666666666667,
+        "avg_r": 0.02760039294194844,
+        "total_r": 0.8280117882584532,
+        "profit_factor": 1.0611886691870824,
+        "max_dd_r": 4.2244342817530125,
+        "return_pct": 0.00689663197648227,
+        "max_dd_pct": 0.04157990819244983,
+        "t_stat": 0.15350348255993315
+      },
+      "oos_windows": 9,
+      "rule_set": "pullback|adx_min=15,of_min=0.0,tp1_r=1.5,trail_atr=3.5",
+      "rule_score": 0.135419719587352,
+      "levels": {
+        "support": [
+          {
+            "price": 0.11645909090909091,
+            "low": 0.11447,
+            "high": 0.11864,
+            "touches": 11,
+            "strength": 2.64026250825427,
+            "last_touch": "2026-09-21T12:00:00+00:00"
+          },
+          {
+            "price": 0.111076,
+            "low": 0.10962,
+            "high": 0.11342,
+            "touches": 5,
+            "strength": 2.548356465001405,
+            "last_touch": "2026-09-23T08:00:00+00:00"
+          },
+          {
+            "price": 0.105352,
+            "low": 0.10419,
+            "high": 0.1071,
+            "touches": 5,
+            "strength": 2.9804300317194765,
+            "last_touch": "2026-09-22T12:00:00+00:00"
+          },
+          {
+            "price": 0.101245,
+            "low": 0.09988,
+            "high": 0.10407,
+            "touches": 18,
+            "strength": 7.055567117490599,
+            "last_touch": "2026-09-20T00:00:00+00:00"
+          }
+        ],
+        "resistance": [
+          {
+            "price": 0.12165,
+            "low": 0.12165,
+            "high": 0.12165,
+            "touches": 2,
+            "strength": 1.1725377601463034,
+            "last_touch": "2026-08-22T08:00:00+00:00"
+          },
+          {
+            "price": 0.127215,
+            "low": 0.12506,
+            "high": 0.12843,
+            "touches": 4,
+            "strength": 1.2610686118127536,
+            "last_touch": "2026-08-25T16:00:00+00:00"
+          },
+          {
+            "price": 0.14034666666666668,
+            "low": 0.14002,
+            "high": 0.14087,
+            "touches": 3,
+            "strength": 0.040403988432798674,
+            "last_touch": "2026-01-21T00:00:00+00:00"
+          },
+          {
+            "price": 0.18583499999999997,
+            "low": 0.18364,
+            "high": 0.18766,
+            "touches": 4,
+            "strength": 0.03836604432856972,
+            "last_touch": "2026-01-10T00:00:00+00:00"
+          }
+        ]
+      },
+      "profile": {
+        "poc": 0.101520375,
+        "vah": 0.11060475,
+        "val": 0.0997035,
+        "hvn": [
+          0.100793625,
+          0.101520375,
+          0.10200487500000001,
+          0.107092125,
+          0.10830337500000001,
+          0.109272375,
+          0.109999125,
+          0.113390625
+        ],
+        "window_start": "2026-09-23T01:32:00+00:00",
+        "window_end": "2026-09-26T01:31:00+00:00",
+        "delta_at_poc": -373070.5428571403,
+        "total_delta": -56133814.99999999,
+        "total_volume": 884660819.0
+      },
+      "book": {
+        "bid_usd": 256128.74251000016,
+        "ask_usd": 390027.2893,
+        "imbalance": -0.20722324051502813,
+        "bid_wall": 0.11128,
+        "bid_wall_usd": 115855.8336,
+        "ask_wall": 0.12393,
+        "ask_wall_usd": 113375.25369
+      },
+      "positioning": {
+        "funding": 5e-05,
+        "mark": 0.11652,
+        "next_funding": "2026-09-26T04:00:00+00:00",
+        "oi_usd": 19143778.8174,
+        "oi_chg_24h": -0.0014594323053918057,
+        "px_chg_24h": 0.060077163329046446,
+        "retail_ls": 1.611,
+        "retail_long_pct": 0.617,
+        "top_ls": 1.581
+      },
+      "news": {
+        "count": 2,
+        "sentiment": 0.5,
+        "headlines": [
+          {
+            "title": "Solana Foundation Hires Binance's Former Global CMO for Institutional Push",
+            "source": "Decrypt",
+            "time": "2026-09-24T13:03:03+00:00",
+            "link": "https://decrypt.co/379179/solana-foundation-hires-binances-former-global-cmo-for-institutional-push",
+            "score": 0.0
+          },
+          {
+            "title": "Solana Foundation taps Binance, Polygon vets to drive institutional adoption and payments",
+            "source": "The Block",
+            "time": "2026-09-24T13:00:00+00:00",
+            "link": "https://www.theblock.co/news/ecosystems/2026-09-24-solana-foundation-taps-binance-polygon-vets-to-drive-institutional-adoption-and-payments-416254",
+            "score": 1.0
+          }
+        ],
+        "high_impact": []
+      },
+      "footprint": {
+        "start": "2026-09-25T23:55:00+00:00",
+        "end": "2026-09-26T01:31:38.225000+00:00",
+        "minutes": 96.63708333333334,
+        "n_trades": 8000,
+        "tick": 5e-05,
+        "bar": "5min",
+        "window_delta": -667687.0,
+        "window_volume": 11845837.0,
+        "delta_pct": -0.05636469588430096,
+        "stacked_buy_zones": [
+          [
+            0.11575,
+            0.1159
+          ],
+          [
+            0.11610000000000001,
+            0.11620000000000001
+          ],
+          [
+            0.11610000000000001,
+            0.11620000000000001
+          ],
+          [
+            0.11615,
+            0.1163
+          ],
+          [
+            0.1164,
+            0.1165
+          ]
+        ],
+        "stacked_sell_zones": [
+          [
+            0.11565,
+            0.1158
+          ]
+        ],
+        "absorption_buy_bars": 1,
+        "absorption_sell_bars": 0,
+        "recent_bars": [
+          {
+            "time": "2026-09-26T01:05:00+00:00",
+            "open": 0.1161,
+            "high": 0.11644,
+            "low": 0.11604,
+            "close": 0.11622,
+            "volume": 387555.0,
+            "delta": -81519.0,
+            "poc": 0.11625
+          },
+          {
+            "time": "2026-09-26T01:10:00+00:00",
+            "open": 0.11622,
+            "high": 0.11638,
+            "low": 0.11608,
+            "close": 0.11612,
+            "volume": 467249.0,
+            "delta": 6213.0,
+            "poc": 0.11615
+          },
+          {
+            "time": "2026-09-26T01:15:00+00:00",
+            "open": 0.11612,
+            "high": 0.11653,
+            "low": 0.11595,
+            "close": 0.11645,
+            "volume": 291074.0,
+            "delta": 78192.0,
+            "poc": 0.11635000000000001
+          },
+          {
+            "time": "2026-09-26T01:20:00+00:00",
+            "open": 0.11644,
+            "high": 0.11672,
+            "low": 0.11615,
+            "close": 0.11621,
+            "volume": 389957.0,
+            "delta": -28821.0,
+            "poc": 0.11620000000000001
+          },
+          {
+            "time": "2026-09-26T01:25:00+00:00",
+            "open": 0.11621,
+            "high": 0.1164,
+            "low": 0.1161,
+            "close": 0.11628,
+            "volume": 123977.0,
+            "delta": -11313.0,
+            "poc": 0.1163
+          },
+          {
+            "time": "2026-09-26T01:30:00+00:00",
+            "open": 0.1163,
+            "high": 0.11654,
+            "low": 0.11617,
+            "close": 0.1165,
+            "volume": 65777.0,
+            "delta": 27873.0,
+            "poc": 0.1165
+          }
+        ]
+      },
+      "cvd_slope_4h": -0.05021838190252635,
+      "plan": {
+        "status": "ACTIVE",
+        "dir": 1,
+        "side": "LONG",
+        "why": "pullback rule fired on the 4h bar closed 2026-09-26 00:00 UTC",
+        "strategy": "pullback",
+        "entry": 0.11652,
+        "stop": 0.10598065728339595,
+        "risk_pct": 0.09045093302955756,
+        "tp1": 0.13232901407490608,
+        "tp2": 0.13759868543320808,
+        "tp3": 0.14813802814981214,
+        "partial": true,
+        "trail_atr": 3.5,
+        "management": "Close 50% at TP1 (1.5R), move stop to entry, then trail the rest 3.5x ATR(4h) behind the best price. TP2/TP3 are reference levels for manual scaling."
+      },
+      "score": 55,
+      "score_parts": [
+        {
+          "factor": "Daily trend aligned",
+          "points": 20,
+          "max": 20,
+          "note": "daily bias +1"
+        },
+        {
+          "factor": "BTC trend aligned",
+          "points": 10,
+          "max": 10,
+          "note": "BTC daily bias +1"
+        },
+        {
+          "factor": "Trend strength (daily ADX >= 20)",
+          "points": 0,
+          "max": 10,
+          "note": "ADX 19.3"
+        },
+        {
+          "factor": "Price vs 4h EMA50",
+          "points": 5,
+          "max": 5,
+          "note": "EMA50 0.10607"
+        },
+        {
+          "factor": "4h CVD slope aligned",
+          "points": 0,
+          "max": 10,
+          "note": "-0.050"
+        },
+        {
+          "factor": "Live footprint delta aligned",
+          "points": 0,
+          "max": 10,
+          "note": "delta -667,687 over 97 min"
+        },
+        {
+          "factor": "Room to 2R (no strong S/R in the way)",
+          "points": 0,
+          "max": 10,
+          "note": "level 0.12165 (\u00d72, recency-weighted strength 1.17)"
+        },
+        {
+          "factor": "Funding not crowded against trade",
+          "points": 5,
+          "max": 5,
+          "note": "+0.0050% / 8h"
+        },
+        {
+          "factor": "OI confirms (new money with the move)",
+          "points": 0,
+          "max": 5,
+          "note": "OI -0.1%, price +6.0% (24h)"
+        },
+        {
+          "factor": "Retail not one-sided with trade",
+          "points": 5,
+          "max": 5,
+          "note": "retail L/S 1.61"
+        },
+        {
+          "factor": "News not against trade",
+          "points": 10,
+          "max": 10,
+          "note": "2 headlines, sentiment +0.50"
+        }
+      ],
+      "sizing": {
+        "equity": 1000.0,
+        "risk": 0.01,
+        "risk_usd": 10.0,
+        "qty": 948.8257730005926,
+        "notional": 110.55717907002905,
+        "leverage": 1,
+        "capped": false
+      },
+      "grade": "C (rule set not validated out-of-sample for this pair)"
+    },
+    {
+      "pair": "LINKUSDT",
+      "symbol": "LINKUSDT",
+      "name": "Chainlink",
+      "price": 13.93639652,
+      "status": "PENDING",
+      "reason": "Daily trend up; enter on a 4h CLOSE above the 20-bar Donchian high (~14.215) on volume > 1.2x average and buy-side taker delta.",
+      "last_bar": "2026-09-26T00:00:00+00:00",
+      "bias": 1,
+      "btc_bias": 1,
+      "atr": 0.3738117389645208,
+      "atr_pct": 0.026822696844773817,
+      "rsi": 67.16361431141327,
+      "adx_d1": 40.063522284247526,
+      "ema21": 13.17077316245443,
+      "ema50": 12.709699473331113,
+      "validated": true,
+      "oos": {
+        "trades": 58,
+        "win_rate": 0.5172413793103449,
+        "avg_r": 0.08079616732017306,
+        "total_r": 4.686177704570038,
+        "profit_factor": 1.166741278054074,
+        "max_dd_r": 5.725350055449748,
+        "return_pct": 0.043746731978745235,
+        "max_dd_pct": 0.056371053743206376,
+        "t_stat": 0.5157893804473265
+      },
+      "oos_windows": 15,
+      "rule_set": "breakout|n=20,tp1_r=1.0,trail_atr=2.5,vol_mult=1.2",
+      "rule_score": 0.6044741610904921,
+      "levels": {
+        "support": [
+          {
+            "price": 13.652,
+            "low": 13.568,
+            "high": 13.686,
+            "touches": 4,
+            "strength": 1.5143429056908777,
+            "last_touch": "2026-09-07T04:00:00+00:00"
+          },
+          {
+            "price": 13.127833333333333,
+            "low": 12.955,
+            "high": 13.309,
+            "touches": 6,
+            "strength": 1.9484594517512885,
+            "last_touch": "2026-09-22T12:00:00+00:00"
+          },
+          {
+            "price": 12.688571428571432,
+            "low": 12.468,
+            "high": 12.9,
+            "touches": 7,
+            "strength": 4.553910511987413,
+            "last_touch": "2026-09-22T12:00:00+00:00"
+          },
+          {
+            "price": 12.051666666666668,
+            "low": 11.91,
+            "high": 12.285,
+            "touches": 15,
+            "strength": 10.319362207023294,
+            "last_touch": "2026-09-24T08:00:00+00:00"
+          }
+        ],
+        "resistance": [
+          {
+            "price": 14.317499999999999,
+            "low": 14.231,
+            "high": 14.404,
+            "touches": 2,
+            "strength": 0.03718552050299648,
+            "last_touch": "2026-01-14T00:00:00+00:00"
+          },
+          {
+            "price": 14.9635,
+            "low": 14.921,
+            "high": 15.006,
+            "touches": 2,
+            "strength": 0.021831436747375442,
+            "last_touch": "2025-12-09T00:00:00+00:00"
+          },
+          {
+            "price": 16.262,
+            "low": 16.213,
+            "high": 16.311,
+            "touches": 2,
+            "strength": 0.013046201851415327,
+            "last_touch": "2025-11-07T00:00:00+00:00"
+          },
+          {
+            "price": 16.740000000000002,
+            "low": 16.691,
+            "high": 16.789,
+            "touches": 2,
+            "strength": 0.012776531856661614,
+            "last_touch": "2025-11-11T00:00:00+00:00"
+          }
+        ]
+      },
+      "profile": {
+        "poc": 12.266393749999999,
+        "vah": 13.710325,
+        "val": 12.028075,
+        "hvn": [
+          12.266393749999999,
+          12.68695625,
+          12.91125625,
+          13.38789375,
+          13.89256875
+        ],
+        "window_start": "2026-09-23T01:32:00+00:00",
+        "window_end": "2026-09-26T01:31:00+00:00",
+        "delta_at_poc": 29894.081666670274,
+        "total_delta": -2187839.6599999946,
+        "total_volume": 71307436.2
+      },
+      "book": {
+        "bid_usd": 2214582.1294699996,
+        "ask_usd": 2693118.4139199997,
+        "imbalance": -0.09750722975437509,
+        "bid_wall": 13.778,
+        "bid_wall_usd": 249398.88472000003,
+        "ask_wall": 14.13,
+        "ask_wall_usd": 409387.92480000004
+      },
+      "positioning": {
+        "funding": 0.0001,
+        "mark": 13.93639652,
+        "next_funding": "2026-09-26T08:00:00+00:00",
+        "oi_usd": 141371966.99808,
+        "oi_chg_24h": 0.0577323665745364,
+        "px_chg_24h": 0.06038191561627282,
+        "retail_ls": 1.7832,
+        "retail_long_pct": 0.6407,
+        "top_ls": 1.7176
+      },
+      "news": {
+        "count": 0,
+        "sentiment": 0.0,
+        "headlines": [],
+        "high_impact": []
+      },
+      "footprint": {
+        "start": "2026-09-26T00:40:00+00:00",
+        "end": "2026-09-26T01:31:51.143000+00:00",
+        "minutes": 51.852383333333336,
+        "n_trades": 8000,
+        "tick": 0.005,
+        "bar": "5min",
+        "window_delta": -1772.650000000005,
+        "window_volume": 857965.2099999998,
+        "delta_pct": -0.0020661094171872136,
+        "stacked_buy_zones": [
+          [
+            13.96,
+            13.97
+          ]
+        ],
+        "stacked_sell_zones": [
+          [
+            13.92,
+            13.950000000000001
+          ]
+        ],
+        "absorption_buy_bars": 0,
+        "absorption_sell_bars": 2,
+        "recent_bars": [
+          {
+            "time": "2026-09-26T01:05:00+00:00",
+            "open": 14.034,
+            "high": 14.047,
+            "low": 13.967,
+            "close": 13.969,
+            "volume": 62467.18000000001,
+            "delta": -17884.06,
+            "poc": 13.985
+          },
+          {
+            "time": "2026-09-26T01:10:00+00:00",
+            "open": 13.97,
+            "high": 13.996,
+            "low": 13.953,
+            "close": 13.97,
+            "volume": 41975.22,
+            "delta": -7913.5,
+            "poc": 13.97
+          },
+          {
+            "time": "2026-09-26T01:15:00+00:00",
+            "open": 13.97,
+            "high": 14.007,
+            "low": 13.966,
+            "close": 13.976,
+            "volume": 27331.1,
+            "delta": 2774.4199999999983,
+            "poc": 13.99
+          },
+          {
+            "time": "2026-09-26T01:20:00+00:00",
+            "open": 13.976,
+            "high": 14.019,
+            "low": 13.969,
+            "close": 13.979,
+            "volume": 27647.9,
+            "delta": 1941.4600000000028,
+            "poc": 14.015
+          },
+          {
+            "time": "2026-09-26T01:25:00+00:00",
+            "open": 13.978,
+            "high": 13.982,
+            "low": 13.856,
+            "close": 13.915,
+            "volume": 152220.58,
+            "delta": -60443.58,
+            "poc": 13.925
+          },
+          {
+            "time": "2026-09-26T01:30:00+00:00",
+            "open": 13.916,
+            "high": 13.939,
+            "low": 13.905,
+            "close": 13.934,
+            "volume": 30232.120000000003,
+            "delta": 2587.9799999999996,
+            "poc": 13.935
+          }
+        ]
+      },
+      "cvd_slope_4h": 0.007806377817237765,
+      "plan": {
+        "status": "PENDING",
+        "dir": 1,
+        "side": "LONG",
+        "why": "Daily trend up; enter on a 4h CLOSE above the 20-bar Donchian high (~14.215) on volume > 1.2x average and buy-side taker delta.",
+        "strategy": "breakout",
+        "entry": 14.252381173896453,
+        "stop": 13.691663565449671,
+        "risk_pct": 0.03934203005135366,
+        "tp1": 14.813098782343234,
+        "tp2": 15.373816390790015,
+        "tp3": 15.934533999236796,
+        "partial": true,
+        "trail_atr": 2.5,
+        "management": "Close 50% at TP1 (1.0R), move stop to entry, then trail the rest 2.5x ATR(4h) behind the best price. TP2/TP3 are reference levels for manual scaling."
+      },
+      "score": 90,
+      "score_parts": [
+        {
+          "factor": "Daily trend aligned",
+          "points": 20,
+          "max": 20,
+          "note": "daily bias +1"
+        },
+        {
+          "factor": "BTC trend aligned",
+          "points": 10,
+          "max": 10,
+          "note": "BTC daily bias +1"
+        },
+        {
+          "factor": "Trend strength (daily ADX >= 20)",
+          "points": 10,
+          "max": 10,
+          "note": "ADX 40.1"
+        },
+        {
+          "factor": "Price vs 4h EMA50",
+          "points": 5,
+          "max": 5,
+          "note": "EMA50 12.710"
+        },
+        {
+          "factor": "4h CVD slope aligned",
+          "points": 10,
+          "max": 10,
+          "note": "+0.008"
+        },
+        {
+          "factor": "Live footprint delta aligned",
+          "points": 0,
+          "max": 10,
+          "note": "delta -1,773 over 52 min"
+        },
+        {
+          "factor": "Room to 2R (no strong S/R in the way)",
+          "points": 10,
+          "max": 10,
+          "note": "level 14.317 (\u00d72, recency-weighted strength 0.04)"
+        },
+        {
+          "factor": "Funding not crowded against trade",
+          "points": 5,
+          "max": 5,
+          "note": "+0.0100% / 8h"
+        },
+        {
+          "factor": "OI confirms (new money with the move)",
+          "points": 5,
+          "max": 5,
+          "note": "OI +5.8%, price +6.0% (24h)"
+        },
+        {
+          "factor": "Retail not one-sided with trade",
+          "points": 5,
+          "max": 5,
+          "note": "retail L/S 1.78"
+        },
+        {
+          "factor": "News not against trade",
+          "points": 10,
+          "max": 10,
+          "note": "0 headlines, sentiment +0.00"
+        }
+      ],
+      "sizing": {
+        "equity": 1000.0,
+        "risk": 0.01,
+        "risk_usd": 10.0,
+        "qty": 17.834289220380562,
+        "notional": 254.18108793437636,
+        "leverage": 1,
+        "capped": false
+      },
+      "grade": "A (pending trigger)"
+    },
+    {
+      "pair": "ADAUSDT",
+      "symbol": "ADAUSDT",
+      "name": "Cardano",
+      "price": 0.2587,
+      "status": "PENDING",
+      "reason": "Daily trend up; wait for a pullback into the 4h EMA21 zone (~0.24747) and a 4h close back above EMA21 and the prior bar's high with positive taker delta.",
+      "last_bar": "2026-09-26T00:00:00+00:00",
+      "bias": 1,
+      "btc_bias": 1,
+      "atr": 0.007526471972476561,
+      "atr_pct": 0.029093436306442063,
+      "rsi": 66.07935562698378,
+      "adx_d1": 32.551234470703406,
+      "ema21": 0.2474687148375364,
+      "ema50": 0.23763203804119834,
+      "validated": false,
+      "oos": {
+        "trades": 51,
+        "win_rate": 0.43137254901960786,
+        "avg_r": 0.017172249906681994,
+        "total_r": 0.8757847452407816,
+        "profit_factor": 1.0294464758170576,
+        "max_dd_r": 6.824528247522727,
+        "return_pct": 0.0036569933259087417,
+        "max_dd_pct": 0.06739793474112843,
+        "t_stat": 0.08516445364426253
+      },
+      "oos_windows": 15,
+      "rule_set": "pullback|adx_min=15,of_min=0.0,tp1_r=1.5,trail_atr=2.5",
+      "rule_score": 0.8644251538336563,
+      "levels": {
+        "support": [
+          {
+            "price": 0.2582333333333333,
+            "low": 0.2545,
+            "high": 0.2623,
+            "touches": 9,
+            "strength": 3.5196850652442015,
+            "last_touch": "2026-09-23T04:00:00+00:00"
+          },
+          {
+            "price": 0.24806666666666669,
+            "low": 0.245,
+            "high": 0.2534,
+            "touches": 6,
+            "strength": 0.40708036521612,
+            "last_touch": "2026-05-17T00:00:00+00:00"
+          },
+          {
+            "price": 0.23847500000000002,
+            "low": 0.2357,
+            "high": 0.2407,
+            "touches": 4,
+            "strength": 0.4890378625207552,
+            "last_touch": "2026-05-30T00:00:00+00:00"
+          },
+          {
+            "price": 0.2310714285714286,
+            "low": 0.2264,
+            "high": 0.2352,
+            "touches": 14,
+            "strength": 8.647633037375703,
+            "last_touch": "2026-09-24T08:00:00+00:00"
+          }
+        ],
+        "resistance": [
+          {
+            "price": 0.267475,
+            "low": 0.2663,
+            "high": 0.2688,
+            "touches": 4,
+            "strength": 0.21356799154887673,
+            "last_touch": "2026-04-17T00:00:00+00:00"
+          },
+          {
+            "price": 0.2751333333333333,
+            "low": 0.2743,
+            "high": 0.2768,
+            "touches": 3,
+            "strength": 0.10856181909505819,
+            "last_touch": "2026-03-25T00:00:00+00:00"
+          },
+          {
+            "price": 0.2946,
+            "low": 0.2937,
+            "high": 0.2955,
+            "touches": 2,
+            "strength": 0.08698321329777958,
+            "last_touch": "2026-03-18T00:00:00+00:00"
+          },
+          {
+            "price": 0.3033,
+            "low": 0.3017,
+            "high": 0.3049,
+            "touches": 2,
+            "strength": 0.059168263787052054,
+            "last_touch": "2026-02-15T00:00:00+00:00"
+          }
+        ]
+      },
+      "profile": {
+        "poc": 0.238354375,
+        "vah": 0.25376125,
+        "val": 0.23371375,
+        "hvn": [
+          0.238354375,
+          0.239468125,
+          0.24726437499999998,
+          0.248378125,
+          0.24949187499999997,
+          0.252833125,
+          0.25357562499999997,
+          0.255060625,
+          0.25617437499999995
+        ],
+        "window_start": "2026-09-23T01:32:00+00:00",
+        "window_end": "2026-09-26T01:32:00+00:00",
+        "delta_at_poc": 2521049.762499988,
+        "total_delta": -34271612.00000005,
+        "total_volume": 3539482732.0
+      },
+      "book": {
+        "bid_usd": 3327435.5192,
+        "ask_usd": 2871180.1398999994,
+        "imbalance": 0.07360601211500925,
+        "bid_wall": 0.2248,
+        "bid_wall_usd": 400348.568,
+        "ask_wall": 0.2627,
+        "ask_wall_usd": 369569.5124
+      },
+      "positioning": {
+        "funding": 0.0001,
+        "mark": 0.2587,
+        "next_funding": "2026-09-26T08:00:00+00:00",
+        "oi_usd": 108726258.222,
+        "oi_chg_24h": 0.050124530303143455,
+        "px_chg_24h": 0.027588964414234418,
+        "retail_ls": 2.5448,
+        "retail_long_pct": 0.7179,
+        "top_ls": 1.9305
+      },
+      "news": {
+        "count": 0,
+        "sentiment": 0.0,
+        "headlines": [],
+        "high_impact": []
+      },
+      "footprint": {
+        "start": "2026-09-25T23:40:00+00:00",
+        "end": "2026-09-26T01:31:59.110000+00:00",
+        "minutes": 111.98516666666666,
+        "n_trades": 8000,
+        "tick": 0.0001,
+        "bar": "5min",
+        "window_delta": 1705249.0,
+        "window_volume": 72838165.0,
+        "delta_pct": 0.023411476661994435,
+        "stacked_buy_zones": [
+          [
+            0.2576,
+            0.25780000000000003
+          ],
+          [
+            0.2585,
+            0.2587
+          ]
+        ],
+        "stacked_sell_zones": [],
+        "absorption_buy_bars": 1,
+        "absorption_sell_bars": 1,
+        "recent_bars": [
+          {
+            "time": "2026-09-26T01:05:00+00:00",
+            "open": 0.2577,
+            "high": 0.2589,
+            "low": 0.2576,
+            "close": 0.2581,
+            "volume": 4450056.0,
+            "delta": 426644.0,
+            "poc": 0.25830000000000003
+          },
+          {
+            "time": "2026-09-26T01:10:00+00:00",
+            "open": 0.258,
+            "high": 0.2587,
+            "low": 0.2578,
+            "close": 0.2581,
+            "volume": 4552823.0,
+            "delta": -1511877.0,
+            "poc": 0.25830000000000003
+          },
+          {
+            "time": "2026-09-26T01:15:00+00:00",
+            "open": 0.2581,
+            "high": 0.2593,
+            "low": 0.2575,
+            "close": 0.2588,
+            "volume": 7072805.0,
+            "delta": -786583.0,
+            "poc": 0.2589
+          },
+          {
+            "time": "2026-09-26T01:20:00+00:00",
+            "open": 0.2589,
+            "high": 0.2611,
+            "low": 0.2588,
+            "close": 0.2593,
+            "volume": 13341493.0,
+            "delta": -307687.0,
+            "poc": 0.26080000000000003
+          },
+          {
+            "time": "2026-09-26T01:25:00+00:00",
+            "open": 0.2594,
+            "high": 0.2599,
+            "low": 0.2583,
+            "close": 0.2585,
+            "volume": 4702548.0,
+            "delta": 869788.0,
+            "poc": 0.2594
+          },
+          {
+            "time": "2026-09-26T01:30:00+00:00",
+            "open": 0.2585,
+            "high": 0.2591,
+            "low": 0.2584,
+            "close": 0.2588,
+            "volume": 850650.0,
+            "delta": 423554.0,
+            "poc": 0.2587
+          }
+        ]
+      },
+      "cvd_slope_4h": 0.036834176602355675,
+      "plan": {
+        "status": "PENDING",
+        "dir": 1,
+        "side": "LONG",
+        "why": "Daily trend up; wait for a pullback into the 4h EMA21 zone (~0.24747) and a 4h close back above EMA21 and the prior bar's high with positive taker delta.",
+        "strategy": "pullback",
+        "entry": 0.2474687148375364,
+        "stop": 0.239565919266436,
+        "risk_pct": 0.03193452382976412,
+        "tp1": 0.259322908194187,
+        "tp2": 0.2632743059797372,
+        "tp3": 0.27117710155083763,
+        "partial": true,
+        "trail_atr": 2.5,
+        "management": "Close 50% at TP1 (1.5R), move stop to entry, then trail the rest 2.5x ATR(4h) behind the best price. TP2/TP3 are reference levels for manual scaling."
+      },
+      "score": 95,
+      "score_parts": [
+        {
+          "factor": "Daily trend aligned",
+          "points": 20,
+          "max": 20,
+          "note": "daily bias +1"
+        },
+        {
+          "factor": "BTC trend aligned",
+          "points": 10,
+          "max": 10,
+          "note": "BTC daily bias +1"
+        },
+        {
+          "factor": "Trend strength (daily ADX >= 20)",
+          "points": 10,
+          "max": 10,
+          "note": "ADX 32.6"
+        },
+        {
+          "factor": "Price vs 4h EMA50",
+          "points": 5,
+          "max": 5,
+          "note": "EMA50 0.23763"
+        },
+        {
+          "factor": "4h CVD slope aligned",
+          "points": 10,
+          "max": 10,
+          "note": "+0.037"
+        },
+        {
+          "factor": "Live footprint delta aligned",
+          "points": 10,
+          "max": 10,
+          "note": "delta +1,705,249 over 112 min"
+        },
+        {
+          "factor": "Room to 2R (no strong S/R in the way)",
+          "points": 10,
+          "max": 10,
+          "note": "clear"
+        },
+        {
+          "factor": "Funding not crowded against trade",
+          "points": 5,
+          "max": 5,
+          "note": "+0.0100% / 8h"
+        },
+        {
+          "factor": "OI confirms (new money with the move)",
+          "points": 5,
+          "max": 5,
+          "note": "OI +5.0%, price +2.8% (24h)"
+        },
+        {
+          "factor": "Retail not one-sided with trade",
+          "points": 0,
+          "max": 5,
+          "note": "retail L/S 2.54"
+        },
+        {
+          "factor": "News not against trade",
+          "points": 10,
+          "max": 10,
+          "note": "0 headlines, sentiment +0.00"
+        }
+      ],
+      "sizing": {
+        "equity": 1000.0,
+        "risk": 0.01,
+        "risk_usd": 10.0,
+        "qty": 1265.3750068607142,
+        "notional": 313.14072673535975,
+        "leverage": 1,
+        "capped": false
+      },
+      "grade": "C (rule set not validated out-of-sample for this pair)"
+    }
+  ]
+}
