@@ -237,3 +237,26 @@ PAXG). 0.1% buy fee. Each year starts from zero with $500 added monthly. Unspent
 * The hybrid (buy $20 on dips, then invest the leftover at month end) ended at $79.5k, the same as plain
   monthly buying.
 * Dip-buying only "won" in the two flat or down years (2021, 2026), because it held more cash.
+
+## 10. Silver: $500/month on the 1st vs $20 on every dip, per year from 2020 (added 2026-09-26)
+
+`python -m research.gold_dip_dca silver`. Real COMEX silver daily closes (Yahoo SI=F; within a 0.7% median
+of Binance XAGUSDT where both exist). Same rules as section 9. Full table: `reports/silver_dip_vs_monthly.csv`.
+
+| Year | Silver price | Monthly on the 1st | $20 every down day | $20 on ≥1% drops | $20 when ≥3% below 30d high |
+|---|---|---|---|---|---|
+| 2020 | +46.6% | **$8,162** (+36%) | $6,815 | $6,499 | $7,202 |
+| 2021 | −14.5% | $5,485 (−9%) | $5,862 | **$5,931** | $5,821 |
+| 2022 | +4.7% | **$6,661** (+11%) | $6,295 | $6,175 | $6,494 |
+| 2023 | −0.9% | $6,102 | $6,082 | $6,029 | **$6,133** |
+| 2024 | +21.9% | **$6,355** | $6,111 | $6,033 | $6,140 |
+| 2025 | +136.8% | **$11,333** (+89%) | $7,740 | $6,883 | $7,986 |
+| 2026 (to Sep) | −8.9% | $4,097 (−9%) | $4,349 | **$4,388** | $4,238 |
+| **2020 → Sep 2026** | +257.6% | **$97,972** (+142%) | $63,562 (+57%) | $52,746 (+30%) | $73,520 (+82%) |
+
+* Monthly buying won 4 of 7 years and the cumulative result by $24k–45k. Dip plans deployed only 17–66% of
+  the budget.
+* Average cost per ounce was about the same: $26.56 monthly vs $26.02–26.76 for the dip rules. Hybrids ended
+  at about $97.3k, the same as monthly buying.
+* Dip-buying won only the down years (2021, 2023, 2026), by holding more cash. Silver was about twice as
+  volatile as gold, with bigger up years (+137% in 2025) and bigger down years (−14.5% in 2021).

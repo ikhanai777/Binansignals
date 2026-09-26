@@ -1,7 +1,8 @@
-"""Gold: $500/month invested on the 1st vs "$20 on every dip", per calendar year from 2020.
+"""Gold / silver: $500/month invested on the 1st vs "$20 on every dip", per calendar year from 2020.
 
-Prices: COMEX gold futures daily closes (Yahoo Finance GC=F), cross-checked against Binance PAXGUSDT spot
-(gold-backed token) where both exist. A 0.1% buy fee (Binance spot) is applied to both plans.
+Prices: COMEX futures daily closes from Yahoo Finance (gold GC=F, silver SI=F), cross-checked against Binance
+(gold: PAXGUSDT spot, a gold-backed token; silver: XAGUSDT perpetual) where both exist. A 0.1% buy fee is
+applied to both plans.
 
 Plans (each year starts from zero; $500 is added on the first trading day of every month):
   monthly  all $500 buys gold on the first trading day of the month
@@ -9,9 +10,11 @@ Plans (each year starts from zero; $500 is added on the first trading day of eve
 Dip definitions: any down day (close below the previous close), a down day of at least 1%, and a close at
 least 3% below the 30-day high.
 
-Run: python -m research.gold_dip_dca
+Run: python -m research.gold_dip_dca [gold|silver]
 """
 from __future__ import annotations
+
+import sys
 
 import pandas as pd
 import requests
@@ -22,8 +25,11 @@ DIP_BUY = 20.0
 DIPS = {"any down day": "down", "down >= 1%": "down1", ">= 3% below 30d high": "dd3"}
 
 
-def gold_daily() -> pd.Series:
-    r = requests.get("https://query1.finance.yahoo.com/v8/finance/chart/GC=F", timeout=30,
+METALS = {"gold": "GC=F", "silver": "SI=F"}
+
+
+def gold_daily(ticker: str = "GC=F") -> pd.Series:
+    r = requests.get(f"https://query1.finance.yahoo.com/v8/finance/chart/{ticker}", timeout=30,
                      headers={"User-Agent": "Mozilla/5.0"},
                      params={"period1": 1577836800, "period2": int(pd.Timestamp.now().timestamp()), "interval": "1d"}).json()
     res = r["chart"]["result"][0]
@@ -42,6 +48,36 @@ def paxg_daily() -> pd.Series:
                                  "limit": 1000}).json()
         rows += r
     return pd.Series([float(x[4]) for x in rows], index=pd.to_datetime([x[0] for x in rows], unit="ms"))
+
+
+def binance_xag_daily() -> pd.Series:
+    from binansignals.client import BinanceFutures, drop_unclosed
+    d = drop_unclosed(BinanceFutures().klines("XAGUSDT", "1d", 1500))
+    return pd.Series(d["close"].to_numpy(), index=d["open_time"].dt.tz_localize(None))
+
+
+def avg_cost_and_hybrid(px: pd.Series, kind: str | None, hybrid: bool):
+    """Cumulative run from the first date: average cost per unit and end value.
+    kind=None is monthly buying; hybrid also invests leftover dip cash on the month's last trading day."""
+    cash = units = spent = 0.0
+    month, dips, dates = None, (is_dip(px, kind) if kind else None), list(px.index)
+    for i, (t, p) in enumerate(px.items()):
+        if (t.year, t.month) != month:
+            month = (t.year, t.month)
+            cash += MONTHLY
+            if kind is None:
+                units += cash * (1 - FEE) / p
+                spent += cash
+                cash = 0.0
+        if kind and dips[t] and cash >= DIP_BUY:
+            units += DIP_BUY * (1 - FEE) / p
+            spent += DIP_BUY
+            cash -= DIP_BUY
+        if kind and hybrid and (i == len(dates) - 1 or dates[i + 1].month != t.month) and cash > 0:
+            units += cash * (1 - FEE) / p
+            spent += cash
+            cash = 0.0
+    return spent / units, units * px.iloc[-1] + cash
 
 
 def is_dip(px: pd.Series, kind: str) -> pd.Series:
@@ -81,7 +117,7 @@ def table(px: pd.Series) -> pd.DataFrame:
     periods.append((f"2020 -> {px.index[-1]:%Y-%m-%d} (cumulative)", pd.Timestamp("2020-01-01"), px.index[-1] + pd.Timedelta(days=1)))
     for name, a, b in periods:
         yr = px[(px.index >= a) & (px.index < b)]
-        row = {"period": name, "gold price change": f"{yr.iloc[-1] / yr.iloc[0] - 1:+.1%}"}
+        row = {"period": name, "price change": f"{yr.iloc[-1] / yr.iloc[0] - 1:+.1%}"}
         m = run_period(px, a, b, "monthly")
         row["contributed"] = m["contributed"]
         row["monthly: end value"] = m["total"]
@@ -96,13 +132,19 @@ def table(px: pd.Series) -> pd.DataFrame:
 
 
 if __name__ == "__main__":
-    gold = gold_daily()
-    paxg = paxg_daily()
-    both = pd.concat([gold, paxg.reindex(gold.index)], axis=1).dropna()
-    print(f"Gold data {gold.index[0].date()} -> {gold.index[-1].date()} ({len(gold)} days); "
-          f"median |COMEX - PAXG| gap {((both.iloc[:, 0] / both.iloc[:, 1] - 1).abs().median()):.2%} over {len(both)} overlapping days")
+    metal = sys.argv[1] if len(sys.argv) > 1 else "gold"
+    px = gold_daily(METALS[metal])
+    ref, ref_name = (paxg_daily(), "Binance PAXG") if metal == "gold" else (binance_xag_daily(), "Binance XAGUSDT")
+    both = pd.concat([px, ref.reindex(px.index)], axis=1).dropna()
+    print(f"{metal} data {px.index[0].date()} -> {px.index[-1].date()} ({len(px)} days); median |COMEX - {ref_name}| "
+          f"gap {((both.iloc[:, 0] / both.iloc[:, 1] - 1).abs().median()):.2%} over {len(both)} overlapping days")
     pd.set_option("display.width", 250)
     pd.set_option("display.max_columns", 30)
-    t = table(gold)
-    t.to_csv("reports/gold_dip_vs_monthly.csv", index=False)
+    t = table(px)
+    t.to_csv(f"reports/{metal}_dip_vs_monthly.csv", index=False)
     print(t.to_string(index=False, float_format=lambda x: f"{x:,.2f}"))
+    print(f"\nCumulative from {px.index[0].date()}, latest price {px.iloc[-1]:,.2f}:")
+    for name, kind, hyb in [("monthly on the 1st", None, False)] + [(f"$20 {k}", v, False) for k, v in DIPS.items()] + \
+            [(f"hybrid: $20 {k} + rest at month end", v, True) for k, v in DIPS.items()]:
+        cost, val = avg_cost_and_hybrid(px, kind, hyb)
+        print(f"  {name:50s} avg cost {cost:,.2f}   end value ${val:,.0f}")
