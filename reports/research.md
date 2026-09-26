@@ -168,3 +168,20 @@ realistic fees and one position per pair.
 * The absorption-filtered version is slightly positive but not significant (t = 1.44, 171 trades, 6 of 12
   months positive). Beyond 10x, leverage destroys it. At ≥ ~40x the isolated liquidation price sits inside
   the 2% stop, so every stop-out is a liquidation.
+
+## 7. Gold: XAUUSDT / PAXGUSDT (added 2026-09-26)
+
+`python -m research.gold`. Binance gold contracts are young: **XAUUSDT** (TradFi perp) has traded since
+2025-12-11 and **PAXGUSDT** perp since 2025-03-27. For a longer test, PAXGUSDT **spot** 4h (a gold-backed
+token, since 2020-08) is used as a gold proxy with futures costs.
+
+* Volatility: gold moved 1.4–1.6% per day in this period (BTC 2.3%). Its median 5m range is 7–8 bp, *below*
+  the ~11 bp round-trip cost, so 5m gold scalping is structurally worse than crypto scalping.
+* Futures-only history is too short: 7–28 OOS trades, PF 0.58–2.31 depending on window length (noise).
+* **Trend system on 5 years of gold (PAXG spot, Jun 2021 – Aug 2026, walk-forward OOS): 107 trades, win 46%,
+  avg −0.17R, PF 0.73; $500 → $413 at 1% risk.** Positive only in 2025. Shorts were very poor (−0.50R avg);
+  longs broke even.
+* Buy-and-hold gold over the same period: $500 → $993 at 1x (max drawdown 29%), $1,631 at 2x (DD 52%),
+  $2,210 at 3x (DD 70%). Yearly: 2022 −1%, 2023 +11%, 2024 +30%, 2025 +65%, 2026 YTD −1%.
+* Conclusion: gold's big gains came from one long bull run that simply holding captured. The crypto trend
+  rules did not add value on gold, and leverage mainly scaled the drawdowns.
