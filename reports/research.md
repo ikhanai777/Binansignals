@@ -122,3 +122,28 @@ $500 start, fixed slot of 1/12 of equity per pair (x leverage):
 * Only large dips in the Asia session were positive in both periods, and modestly. That variant was picked
   from 128 after seeing both periods, so expect less going forward. London worked in 2023–25 but lost in the
   last 12 months. New York lost throughout.
+
+## 5. 5-minute scalping with high leverage (added 2026-09-26)
+
+One year of real 5m data for all 12 pairs (`python -m research.scalp5m`). Five common scalps were tested:
+EMA 9/21 cross with the 1h trend, VWAP stretch reversion, Bollinger + RSI(2) fade, a 12-bar breakout on
+volume + taker delta, and 3-bar delta momentum. Each ran with five take-profit/stop shapes, for 25 variants and
+3,000–244,000 trades each.
+
+* Gross edge before costs: between −1.9 and +0.7 basis points per trade for every variant, which is noise.
+  Realistic costs are 9–14 bp per round trip.
+* Net per trade with realistic costs: −10.5 to −12.8 bp for all 25 variants. Even with optimistic all-maker
+  fills at 0.02%, every variant loses 3.3–5.9 bp per trade. Win rates range from 31% to 72% depending on the
+  target/stop shape, and none of them profit.
+* $500, whole account as margin, one position at a time, best variant (Bollinger/RSI fade):
+
+| Leverage | Peak reached | 90% of the account lost after |
+|---|---|---|
+| 1x | $504 | 64 days |
+| 10x | $539 | 4 days |
+| 25x | $600 | 1–2 days |
+| 50x | $709–736 | < 1 day |
+| 100x | $954–1,051 | < 1 day |
+
+Leverage does not create an edge. It multiplies the per-trade fee loss, so the account dies faster. The
+brief spikes toward $1,000 at 100x are the lure, not the outcome.
