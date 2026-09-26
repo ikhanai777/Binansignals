@@ -80,6 +80,19 @@ deepen portfolio drawdowns. 1h versions of the same rules lost money after costs
 here is "highly profitable" in a way a real backtest can prove, and anyone who shows you one without
 out-of-sample, cost-inclusive results is showing you a curve fit.
 
+## Win-rate research and funding carry
+
+`reports/research.md` documents the search for higher-win-rate strategies. It covers rule-based mean
+reversion, absorption and stop-run patterns, limit entries, a walk-forward ML filter, and exit variants.
+Design used data up to Oct 2025, and one untouched holdout year followed. None of the directional ideas
+raised the win rate while staying profitable on the holdout. Win rates of 65–75% were easy to reach, but only by
+giving up expectancy.
+
+The one high-win-rate approach that held up is **funding carry**: long spot plus short the perp, with 89–97%
+positive months on BTC, ETH, LTC, DOGE, LINK and ADA. Yields are single-digit APR. See the live figures with
+`python -m binansignals carry`. Reproduce the research with `python -m research.run rules | ml | carry`, which
+needs `scikit-learn`.
+
 > Not financial advice. Historical and out-of-sample results do not guarantee future returns. Leveraged futures
 > can lose more than the margin posted.
 

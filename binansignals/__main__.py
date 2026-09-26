@@ -23,6 +23,9 @@ def main(argv=None):
     b = sub.add_parser("backtest", help="walk-forward backtest report")
     b.add_argument("--pairs")
     b.add_argument("--out", type=Path, default=OUT)
+    k = sub.add_parser("carry", help="live funding-carry monitor (long spot + short perp)")
+    k.add_argument("--pairs")
+    k.add_argument("--out", type=Path, default=OUT)
     a = ap.parse_args(argv)
     a.out.mkdir(parents=True, exist_ok=True)
     pairs = a.pairs.split(",") if a.pairs else None
@@ -37,6 +40,11 @@ def main(argv=None):
         (a.out / "signals.json").write_text(to_json(res))
         print(md)
         log(f"\nWrote {a.out / 'signals.md'} and {a.out / 'signals.json'}")
+    elif a.cmd == "carry":
+        from .carry import carry_markdown, carry_table
+        md = carry_markdown(carry_table(pairs))
+        (a.out / "carry.md").write_text(md)
+        print(md)
     else:
         from .backtest import metrics, walk_forward
         from .client import BinanceFutures, drop_unclosed
