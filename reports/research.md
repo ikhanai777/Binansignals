@@ -95,3 +95,30 @@ hedged notional, so APR on total capital is lower once the perp margin buffer is
    market-neutral, with single-digit APR.
 
 _Not financial advice._
+
+## 4. Session fade: "buy every dip, sell every rise" (added 2026-09-26)
+
+Tested on real 15m data for all 12 pairs, Sep 2023 → Sep 2026 (`python -m research.session_fade`; full grid in
+`reports/session_fade_grid.csv`). At each session's open, a resting buy is placed k × (yesterday's daily ATR)
+below the open and a resting short the same distance above. The target is the session open. The stop is
+s × ATR, or none (exit at session end). Limit fills must trade through the level. Maker/taker fees and slippage
+are included. There are 128 variants: 4 sessions × dip size × stop × optional daily-trend filter.
+
+$500 start, fixed slot of 1/12 of equity per pair (x leverage):
+
+| Variant | Win rate | 1x | 3x | 5x | Last 12 months at 3x |
+|---|---|---|---|---|---|
+| Every small dip/rise (0.25 ATR), full day, no stop | 63% | $63 | $0 | $0 | $21 |
+| Every small dip/rise, NY session, 0.5 ATR stop | 54% | $68 | $0 | $0 | $20 |
+| Every small dip/rise, Asia session, 0.5 ATR stop | 52% | $211 | $26 | $2 | $209 |
+| Big dips only (0.75 ATR), Asia, no stop | 57% | $660 | $1,065 (DD 36%) | $1,549 (DD 56%) | $934 |
+| Big dips only, Asia, trend filter, no stop | 57% | $590 | $808 | $1,080 | $575 |
+| Big dips only, London, trend filter, no stop | 59% | $659 | $1,083 | $1,655 | **$473** (lost in last 12 months) |
+
+* Fading every small move loses in every session, with every stop setting, in both periods. It trades
+  thousands of times, and fees plus trending sessions outweigh a 52–63% win rate.
+* Stops: tighter stops cut the win rate and did not rescue any variant. No stop (session-end exit) was usually
+  best but had single-trade losses of 6–15% (e.g. 2024-08-05).
+* Only large dips in the Asia session were positive in both periods, and modestly. That variant was picked
+  from 128 after seeing both periods, so expect less going forward. London worked in 2023–25 but lost in the
+  last 12 months. New York lost throughout.
