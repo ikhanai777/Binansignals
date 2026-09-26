@@ -185,3 +185,28 @@ token, since 2020-08) is used as a gold proxy with futures costs.
   $2,210 at 3x (DD 70%). Yearly: 2022 −1%, 2023 +11%, 2024 +30%, 2025 +65%, 2026 YTD −1%.
 * Conclusion: gold's big gains came from one long bull run that simply holding captured. The crypto trend
   rules did not add value on gold, and leverage mainly scaled the drawdowns.
+
+## 8. Spot dip-buying with a $500 monthly budget vs plain DCA (added 2026-09-26)
+
+`python -m research.dip_dca`. Real Binance spot daily closes, 0.1% fee, no leverage. $500 is added each
+month; on every dip day, 10% of the available cash is spent. Dips were defined four ways: a daily drop of at
+least 5% or 8%, or a close at least 10% or 20% below the 30-day high. The benchmark (DCA) invests the full
+$500 on the 1st of each month. There were 3 baskets × 3 start dates × 4 dip rules = 36 comparisons.
+
+| Start | Basket | DCA | Best dip rule | Worst dip rule |
+|---|---|---|---|---|
+| Jan 2020 | BTC | **+195%** ($40.5k → $119k) | +157% (dd10) | +79% (red8) |
+| Jan 2020 | All 12 | **+250%** | +203% (dd10) | +119% (red8) |
+| Nov 2021 (peak) | BTC | **+97%** | +86% (dd10) | +32% (red8) |
+| Nov 2021 | All 12 | **+30%** | +28% (dd10) | +10% (red8) |
+| Jan 2024 | BTC | **+13%** | +11% (dd20) | +3% (red8) |
+| Jan 2024 | BTC + ETH | +8% | **+12% (dd20)** | +4% (red5) |
+| Jan 2024 | All 12 | −5% | −8% (dd10) | −10% |
+
+* Dip-buying beat DCA in only 1 of 36 comparisons (BTC + ETH from 2024 with dd20, +12% vs +8%). Waiting for
+  dips leaves cash idle (up to 85% of the pot) while prices rise, and spending only 10% per dip deploys
+  money too slowly.
+* It does reduce the worst paper drop (e.g. 45% vs 70%), but only because less money is invested.
+* Coin choice matters far more than timing. DCA from the Nov 2021 peak: SOL +131%, XRP +123%, BTC +97%,
+  BNB +86%, LINK +31%, ETH +21%, LTC −6%, DOGE −8%, ADA −37%, AVAX −40%, DOT −66%.
+* Note: POL only has spot history since 2024-09 (the MATIC era is not included).
