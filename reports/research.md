@@ -299,3 +299,23 @@ of Binance XAGUSDT where both exist). Same rules as section 9. Full table: `repo
   $104–105k (ETH), slightly below monthly buying.
 * Risk: even plain monthly buying fell 70% (BTC) and 78% (ETH) from its peak in 2022, vs 50% for silver and
   23% for gold.
+
+## 12. Spot: buy the month's dip, sell the month's peak ($500 start + $500/month) (added 2026-09-28)
+
+`python -m research.monthly_swing`. Binance spot daily OHLC, Jan 2020 → Sep 2026 (81 months, $40,500 in),
+0.1% fee per fill.
+
+| Plan | BTC | ETH |
+|---|---|---|
+| Perfect hindsight: buy each month's exact low, sell the highest high after it | $39.7 **billion** | $5.0 **trillion** |
+| **Buy on the 1st and hold** | **$120,971** | **$111,941** |
+| Best realistic limit-order version (dip buy, sell target, unsold coins kept) | $87,668 (−3% / +10%) | $91,710 (−10% / +10%) |
+| Realistic versions that are always flat at month end | $34,282 – $55,644 | $20,800 – $38,430 |
+
+* The hindsight figure is impossible: the month's low and high are only known after the month ends. It shows
+  why the idea feels so attractive.
+* All 24 realistic variants per coin trailed buy-and-hold. The 12 "sold at month end" variants mostly ended
+  **below the $40,500 put in**, despite 52–82% win rates: the few months that crashed after the buy (2022)
+  cost more than the many small wins earned.
+* "Kept until target" shows 100% win rates only because losing positions are never closed. It still ends
+  $29k–63k behind buy-and-hold, because selling at +3–20% misses the large rallies.
