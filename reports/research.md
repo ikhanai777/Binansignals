@@ -319,3 +319,22 @@ of Binance XAGUSDT where both exist). Same rules as section 9. Full table: `repo
   cost more than the many small wins earned.
 * "Kept until target" shows 100% win rates only because losing positions are never closed. It still ends
   $29k–63k behind buy-and-hold, because selling at +3–20% misses the large rallies.
+
+## 13. Intraday trend-catching ("day scalping with the trend") (added 2026-09-28)
+
+`python -m research.intraday_trend`. 3 years of real 15m data, 12 pairs. Every trade is closed by the end of
+the UTC day, with taker fees and slippage included. The strategies are opening-range breakouts at the Asia
+(00:00), London (08:00) and US (13:30 UTC) opens, with and without a daily-trend filter; a 20-bar Donchian
+breakout with the 4h trend; and a VWAP cross with the daily trend. Each was run with 4 exits: day-end,
+2 ATR trail, 3 ATR trail, and 2R target. That is 32 variants and 7,700–38,000 trades each. Full grid:
+`reports/intraday_trend_grid.csv`.
+
+* **0 of 32 variants were profitable in either the dev or the holdout period.** The average was −0.06 to
+  −0.28R per trade, clearly significant (t between −2 and −27). Win rates were 20–41%.
+* The trend effect itself is real but tiny. Before costs, the best variants (trend-filtered opening-range
+  breakouts, Donchian with the 4h trend) earned **+0.04 to +0.05R** per trade. Round-trip costs were
+  **0.11–0.26R**, because intraday stops are tight, so the fee is a big fraction of the risk.
+* Best-looking variant: US-open breakout with the daily trend and a 2R target. It won 41% of trades at
+  −0.045R in the holdout, still a loss.
+* $500 at 1% risk per trade fell to ~$0–200 over 3 years for every variant, because 7–35 trades a day compound
+  a small negative edge very quickly.
